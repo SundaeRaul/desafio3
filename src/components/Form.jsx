@@ -5,7 +5,7 @@ import Button from './Button'
 
 function Form(){
     return(
-        <form>
+        <form className="ContactForm">
             <Button name="Nome"/>
             <Button name="E-mail"/>
         </form>

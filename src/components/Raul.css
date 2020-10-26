@@ -1,0 +1,31 @@
+#container {
+    margin-right: 10px;
+    border: 1px solid black;
+    background: white;
+    width: 500px;
+    border-radius: 15px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25pt;
+    color: #8DB892;
+}
+
+form{
+    width: 250px;
+    margin: 75px auto 25px auto;
+}
+
+input.LoginForm{
+    outline: none;
+    background: rgba(0, 0, 0, .05);
+    border: none;
+    padding: 15px 10px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
