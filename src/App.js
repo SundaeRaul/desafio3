@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Fabio from './components/Fabio'
+import Form from './components/Form'
 
 export default (props) => (
   <div className="App">
@@ -19,6 +19,9 @@ export default (props) => (
           </ul>
         </div>      
       </Fabio>
+
+      <Form/>
+
     </div>    
   </div>
 )
