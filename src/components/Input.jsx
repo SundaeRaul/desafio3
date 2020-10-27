@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './Button.css'
+import './Input.css'
 
-function Button(props){
+function Input(props){
     return(
         <div id="box-input">
             <input id="contato" required="require"></input>
@@ -11,4 +11,4 @@ function Button(props){
     );
 }
 
-export default Button;
+export default Input;

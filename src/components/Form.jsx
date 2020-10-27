@@ -1,13 +1,13 @@
 import React from 'react';
 
 import './Form.css'
-import Button from './Button'
+import Input from './Input'
 
 function Form(){
     return(
         <form className="ContactForm">
-            <Button name="Nome"/>
-            <Button name="E-mail"/>
+            <Input name="Nome"/>
+            <Input name="E-mail"/>
         </form>
     );
 }
