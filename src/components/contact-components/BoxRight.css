@@ -1,0 +1,24 @@
+div#mensagem{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+textarea{
+    width: 85%;
+    height: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+button#enviar{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 18pt;
+}

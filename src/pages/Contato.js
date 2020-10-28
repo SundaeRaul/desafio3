@@ -2,16 +2,27 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import Form from '../components/Form'
+import '../styles/contato-estilo.css';
+
+import Header from '../components/Header'
+import BoxLeft from '../components/contact-components/BoxLeft'
+import BoxRight from '../components/contact-components/BoxRight'
 
 function Contato(){
     return(
-        <div>
-            <Form/>
+        <div className="contact-page">
 
-            <p>
-                <Link to="/">Voltar para a pagina inicial</Link>
-            </p>
+            <Header/>
+
+            <div className="page">
+                <div className="box">
+                    <BoxLeft/>
+                    <BoxRight/>
+                </div>
+            </div>
+            
+            
+
         </div>
     );
 }

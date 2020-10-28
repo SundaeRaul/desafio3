@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Form.css'
-import Input from './Input'
+import Input from './Input';
 
 function Form(){
     return(
