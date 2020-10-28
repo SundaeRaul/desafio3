@@ -28,31 +28,3 @@ nav#navbar img {
 }
 
 
-nav#navbar ul a {
-    text-decoration: none;
-    color:  #04660E;
-    padding: 10px 30px;
-    border-radius: 6.5px;
-    margin: 10px 20px;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-
-nav#navbar ul a:hover {
-    color: white;
-    background-color:  #04660E;
-
-}
-
-ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-li {    
-    list-style-type: none;    
-    margin: 50px;
-    text-align: center;
-    
-}
