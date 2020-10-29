@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from '../images/logo2.png';
+import Menu from './Menu';
 
 import './Header.css';
 
@@ -17,12 +18,7 @@ function Header(){
                     </Link>
                 </div>
                 
-                <ul>
-                    <li><Link to="/"> Sobre </Link></li>
-                    <li><Link to="/Contato">Contato</Link></li>
-                    <li><Link to="/"> Login </Link></li>
-                    <li><Link to="/"> Cadastro </Link></li>
-                </ul>
+                <Menu />
             </nav>
 
         </header>
