@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 function Index(){
     return(
-        <div>
+        <div className="body">
             <Navbar />
             <Parallax />
         </div>

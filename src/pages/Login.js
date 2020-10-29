@@ -8,12 +8,15 @@ import '../styles/Login.css';
 
 function Login(){
    return(
-      <div id="container">
-         <div id="box">
-            <DivBranca/>
-            <DivVerde/>
-         </div>   
+      <div className="corpo">
+         <div id="container">
+            <div id="box">
+               <DivBranca/>
+               <DivVerde/>
+            </div>   
+         </div>
       </div>
+      
    );
 }
 
