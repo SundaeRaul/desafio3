@@ -1,5 +1,4 @@
 import React from 'react';
-import Raul from '../components/Raul';
 import DivBranca from'../components/Login-Components/Login-Branco';
 import DivVerde from'../components/Login-Components/Login-Verde';
 import '../styles/Login.css';
@@ -11,7 +10,7 @@ function Login(){
       <div className="corpo">
          <div id="container">
             <div id="box">
-               <DivBranca/>
+               <DivBranca label="Mostrar Senha"/>
                <DivVerde/>
             </div>   
          </div>

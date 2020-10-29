@@ -7,7 +7,7 @@
     padding: 30px;
 }
 
-.branco input{
+input.LoginForm{
     outline: none;
     background: rgba(0, 0, 0, .05);
     border: none;
@@ -31,7 +31,7 @@ form{
     color: #8DB892;
 }
 
-.branco input#MostrarSenha{
+input.MostrarSenha{
     width: 20px;
 }
 

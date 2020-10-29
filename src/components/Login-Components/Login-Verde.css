@@ -1,10 +1,10 @@
 .verde{
     width: 40%;
     height: 100%;
-    background: #8DB892;
-    border-radius: 0 15% 15% 0;
+    background:#8DB892;
+    border-radius:0 15% 15% 0;
     text-align: center;
-    margin: 0;
+    padding: 30px;
 }
 
  .verde h2{

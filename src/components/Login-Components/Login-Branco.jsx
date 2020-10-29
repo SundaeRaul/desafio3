@@ -3,17 +3,17 @@ import './Login-Branco.css';
 
 
 
- function DivBranca () {
+ function DivBranca (props) {
     return (
             <div class="branco">
                <h2>Login</h2>
                <form>
-                  <input type="text" placeholder="RA"/>
-                  <input type="password" placeholder="Senha"/>
+                  <input className="LoginForm" type="text" placeholder="RA"/>
+                  <input className="LoginForm" type="password" placeholder="Senha"/>
                </form>
                   
-               <input type="checkbox" id="MostrarSenha" name="vehicle1" value="Bike"/>
-               <label for="Senha">Mostrar Senha</label>
+               <input type="checkbox" className="MostrarSenha"/>
+               <label for="Senha">{props.label}</label>
                
                <button type="submit" class="button">Logar</button>
             </div>
