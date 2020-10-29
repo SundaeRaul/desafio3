@@ -6,7 +6,7 @@ function DivVerde(){
         <div className="verde">
             <h2>Bem-vindo (a), Estudante!</h2>
                <p>Insira seus dados e começe a controlar suas finanças!</p>
-                <input type="button" id="Cadastro" value="Cadastre-se!"/>            
+                <input type="button" className="Cadastro" value="Cadastre-se!" />            
          </div> 
     );
 }

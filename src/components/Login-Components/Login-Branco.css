@@ -1,10 +1,14 @@
 .branco{
     width: 60%;
-    height: 100%;
+    height: 94vh;
     background: #ffffff;
     border-radius:15% 0 0 15%;
     text-align: center;
     padding: 30px;
+}
+
+.ParteSup {
+    margin-top: 50px;
 }
 
 input.LoginForm{
@@ -19,6 +23,13 @@ input.LoginForm{
     position: relative;
 }
 
+.MostrarSenha {
+    margin-left: -100px;
+}
+
+.TextoSenha {
+    margin-left: 450px;
+}
 
 form{
     width: 60%;

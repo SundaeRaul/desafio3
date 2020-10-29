@@ -7,14 +7,15 @@ import './Login-Branco.css';
     return (
             <div class="branco">
                <h2>Login</h2>
-               <form>
+               <form className="ParteSup">
                   <input className="LoginForm" type="text" placeholder="RA"/>
                   <input className="LoginForm" type="password" placeholder="Senha"/>
                </form>
-                  
-               <input type="checkbox" className="MostrarSenha"/>
-               <label for="Senha">{props.label}</label>
-               
+               <div class="MostrarSenha">
+                  <input className="Checkbox" type="checkbox" />
+                  <label className="TextoSenha" for="Senha">{props.label}</label>
+               </div>
+                              
                <button type="submit" class="button">Logar</button>
             </div>
       );

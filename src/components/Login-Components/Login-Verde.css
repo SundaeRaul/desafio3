@@ -36,6 +36,11 @@
     transition: 0.5s;
 }
 
+.verde input.Cadastro {
+    padding: 20px;
+    width: auto;
+}
+
 .verde input:hover{
     background-color: white;
     color: green;

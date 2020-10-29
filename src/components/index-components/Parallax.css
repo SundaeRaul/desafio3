@@ -6,6 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    border: none;
 }
 
 .pimg1 {
@@ -28,6 +29,8 @@
     text-align: center;
     padding: 35px 80px;
     background-color: #c5dbc7;
+    border: none;
+    margin: 0;
 }
 
 .ptext {
@@ -51,10 +54,18 @@
     border: 1px solid white;
 }
 
-hr {    
+hr.linha {    
     color: white;
     margin: 0;
     width: 100vw;
-    height: 1px;
-    border: none;
+    border-bottom: 1px solid white;
+    border-top: none;
+}
+
+hr.divisor-footer {
+    margin: 0;
+    width: 100vw;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: none;
 }
