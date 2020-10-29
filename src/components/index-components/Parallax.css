@@ -1,0 +1,60 @@
+.pimg1, .pimg2, .pimg3, .pimg4 {
+    position: relative;
+    opacity: 0.55;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.pimg1 {
+    background-image: url('../../../src/images/1.jpg')
+}
+
+.pimg2 {
+    background-image: url('../../../src/images/2.jpg')
+}
+
+.pimg3 {
+    background-image: url('../../../src/images/3.jpg')
+}
+
+.pimg4 {
+    background-image: url('../../../src/images/4.jpg')
+}
+
+.section {
+    text-align: center;
+    padding: 35px 80px;
+    background-color: #c5dbc7;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+}
+
+.ptext .border {
+    background-color: #04660e;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+hr {    
+    color: white;
+    margin: 0;
+    width: 100vw;
+    height: 1px;
+    border: none;
+}
