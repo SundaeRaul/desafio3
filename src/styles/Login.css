@@ -19,8 +19,8 @@
 }
 
 div#box {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 100%;
     display: flex;
     border-radius: 15%;
 }
