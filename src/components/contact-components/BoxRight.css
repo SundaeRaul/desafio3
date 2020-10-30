@@ -2,12 +2,13 @@ div#mensagem{
     width: 60%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 textarea{
     width: 85%;
     height: 90%;
-    margin: 0 auto;
+    margin: 0;
     padding-top: 20px;
     border: none;
     outline: none;
@@ -21,4 +22,8 @@ button#enviar{
     border: none;
     color: white;
     font-size: 18pt;
+}
+
+button#enviar:hover{
+    background: rgba(0,0,0,.92);
 }

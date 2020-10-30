@@ -16,5 +16,22 @@
             "Data": "30/10/2020",
             "Descrição": "Comissão Setembro"
         }
+    ],
+
+    "Despesas": 
+    [
+        {
+            "descricao": "faculdade",
+            "categoria": "educacao",
+            "data": "10/10/20",
+            "valor": "650,00"
+        },
+        {
+            "descricao": "pizza",
+            "categoria": "alimentacao",
+            "data": "12/10/20",
+            "valor": "45,00"
+        }
+
     ]
 }
