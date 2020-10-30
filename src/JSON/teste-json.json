@@ -1,0 +1,20 @@
+{
+    "Receitas": [
+        {
+            "receitaID": 1,
+            "Nome": "Salário",
+            "Preço": "2.000,00",
+            "Categoria": "Salário",
+            "Data": "29/10/2020",
+            "Descrição": "Salário Setembro"
+        },
+        {
+            "receitaID": 2,
+            "Nome": "Comissão",
+            "Preço": "250,00",
+            "Categoria": "Lazer",
+            "Data": "30/10/2020",
+            "Descrição": "Comissão Setembro"
+        }
+    ]
+}

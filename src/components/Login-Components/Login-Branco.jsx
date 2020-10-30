@@ -1,8 +1,6 @@
 import React from 'react';
 import './Login-Branco.css';
 
-
-
  function DivBranca (props) {
     return (
             <div class="branco">
@@ -22,6 +20,3 @@ import './Login-Branco.css';
 }
 
 export default DivBranca;
- 
-
-
