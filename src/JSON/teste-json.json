@@ -2,36 +2,38 @@
     "Receitas": [
         {
             "receitaID": 1,
-            "Nome": "Salário",
-            "Preço": "2.000,00",
-            "Categoria": "Salário",
-            "Data": "29/10/2020",
-            "Descrição": "Salário Setembro"
+            "nome": "Salário",
+            "valor": "2.000,00",
+            "categoria": "Salário",
+            "data": "29/10/2020",
+            "descrição": "Salário Setembro"
         },
         {
             "receitaID": 2,
-            "Nome": "Comissão",
-            "Preço": "250,00",
-            "Categoria": "Lazer",
-            "Data": "30/10/2020",
-            "Descrição": "Comissão Setembro"
+            "nome": "Comissão",
+            "valor": "250,00",
+            "categoria": "Lazer",
+            "data": "30/10/2020",
+            "descrição": "Comissão Setembro"
         }
     ],
 
-    "Despesas": 
-    [
+    "Despesas": [
         {
-            "descricao": "faculdade",
-            "categoria": "educacao",
+            "despesaID": 1,
+            "nome": "faculdade",
+            "valor": "650,00",
+            "categoria": "Educação",
             "data": "10/10/20",
-            "valor": "650,00"
+            "descricao": "Mensalidade Setembro"
         },
         {
-            "descricao": "pizza",
-            "categoria": "alimentacao",
+            "despesaID": 2,
+            "nome": "Pizza",
+            "valor": "45,00",
+            "categoria": "Alimentação",
             "data": "12/10/20",
-            "valor": "45,00"
+            "descricao": "Pizza 30/10/2020"
         }
-
     ]
 }
