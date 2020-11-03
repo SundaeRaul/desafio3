@@ -35,5 +35,15 @@
             "data": "12/10/20",
             "descricao": "Pizza 30/10/2020"
         }
+    ],
+
+    "Cadastro": [
+        {
+            "Nome": "Nome X",
+            "Email": "ExampleEmail@example.com",
+            "RA": "000000",
+            "Senha": "SenhaExemplo",
+            "Repetir Senha": "SenhaExemplo"
+        }
     ]
 }
