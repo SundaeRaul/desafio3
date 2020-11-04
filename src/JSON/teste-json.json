@@ -45,5 +45,16 @@
             "Senha": "SenhaExemplo",
             "Repetir Senha": "SenhaExemplo"
         }
+    ],
+
+    "Sobre": [
+        {
+            "Nome":"Nome Integrante",
+            "Facebook": "Link Facebook Integrante",
+            "Instagram": "Link Instagram Integrante",
+            "Twitter": "Link Twitter Integrante",
+            "Linkedin": "Link Linkedin Integrante"
+       }
     ]
+    
 }
