@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Logo from '../../../src/images/logo2.png'
 
@@ -11,10 +11,10 @@ class NavBar extends React.Component{
                 <a href="#"><img src={Logo} alt="Logo Financ"/></a> 
                 </div>
                 <ul>
-                    <li><a href="#">{this.props.btn1}</a></li>
-                    <li><a href="#">{this.props.btn2}</a></li>
-                    <li><a href="#">{this.props.btn3}</a></li>
-                    <li><a href="#">{this.props.btn4}</a></li>
+                    <li><Link to="/Sobre">{this.props.btn1}</Link></li>
+                    <li><Link to="/Contato">{this.props.btn2}</Link></li>
+                    <li><Link to="/Login">{this.props.btn3}</Link></li>
+                    <li><Link to="/Cadastro">{this.props.btn4}</Link></li>
                 </ul>                
             </div>
         );

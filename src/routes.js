@@ -7,10 +7,7 @@ import Login from './pages/Login';
 import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
 
-
 import { Switch, Route } from 'react-router-dom';
-
-
 
 function Routes(){
     return(
