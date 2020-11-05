@@ -1,0 +1,61 @@
+#DespesasMensais{
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
+    margin-top: 30px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+#DespesasMensais div#header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 35px;
+}
+
+hr{
+    width: 95%;
+    background: #8DB892;
+    margin: 5px auto;
+}
+
+#DespesasMensais div#despesa{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 35px;
+}
+
+#DespesasMensais div#despesa div#descricao{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+}
+
+#DespesasMensais div#despesa div#descricao span{
+    margin: 10px 0;
+}
+
+#DespesasMensais div#despesa div#valor{
+    width: 34%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#DespesasMensais div#despesa div#valor span{
+    margin: 10px 0;
+}
+
+#DespesasMensais div#despesa div#data{
+    width: 32%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
+#DespesasMensais div#despesa div#data span{
+    margin: 10px 0;
+}

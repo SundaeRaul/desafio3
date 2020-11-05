@@ -1,11 +1,13 @@
 import React from 'react';
 
-import './Header-des.css';
+import './Header.css';
+
+import Logo from '../../images/logo2.png';
 
 function Header() {
   return(
       <header id="despesas-header">
-          <h1>FINANC</h1>
+          <img src={ Logo } alt="Logo Financ"></img>
       </header>
   );
 }
