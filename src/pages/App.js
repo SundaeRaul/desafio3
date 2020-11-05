@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Fabio from '../components/Fabio'
+import Botao from '../components/Botao.jsx'
 import Raul from '../components/Raul'
 import SobreSemProps from '../components/Entregas-components/Sobre'
 import Sobre from '../components/Entregas-components/Comprops'
@@ -10,8 +11,10 @@ import { Link } from 'react-router-dom';
 
 export default () =>
   <div className="App">
-      <Fabio>       
+      <Fabio>               
       </Fabio>
+      
+      <Botao />
 
       <Raul/>
 
