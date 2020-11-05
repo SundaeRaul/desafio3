@@ -2,8 +2,8 @@ import React from 'react';
 import '../App.css';
 import Fabio from '../components/Fabio'
 import Raul from '../components/Raul'
-import SobreSemProps from '../components/Sobre-components/Sobre'
-import Sobre from '../components/Sobre-components/Comprops'
+import SobreSemProps from '../components/Entregas-components/Sobre'
+import Sobre from '../components/Entregas-components/Comprops'
 
 
 import { Link } from 'react-router-dom';
