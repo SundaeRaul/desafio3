@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 
 import '../styles/contato-estilo.css';
+
 
 import Header from '../components/Header';
 import BoxLeft from '../components/contact-components/BoxLeft';
 import BoxRight from '../components/contact-components/BoxRight';
 
-function Contato(){
+
+function Contato() {
+
+
     return(
         <div className="contact-page">
 
@@ -18,11 +22,10 @@ function Contato(){
                     <BoxLeft/>
                     <BoxRight/>
                 </div>
-            </div>
-            
-            
+            </div>     
 
         </div>
+
     );
 }
 

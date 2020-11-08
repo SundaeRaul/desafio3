@@ -1,5 +1,7 @@
 #box-input{
     position: relative;
+    animation-delay: 300ms;
+
 }
 
 #box-input input{
