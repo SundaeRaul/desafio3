@@ -25,3 +25,19 @@ body{
     background-color: #fff;
     display: flex;
 }
+
+
+@keyframes right{
+
+    to{
+        transform: translateX(-100%);
+    }
+    from{
+        transform: translateX(0);
+    }
+}
+
+.animate-right{
+    animation-name: right;
+    animation-duration: 300ms;
+}

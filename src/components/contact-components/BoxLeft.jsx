@@ -5,7 +5,7 @@ import Form from './Form';
 
 function BoxLeft(){
     return(
-        <div id="box-left">
+        <div id="box-left" className="animate-right">
                 <h1>Contate-nos</h1><hr className="Linha" />
 
                 <div id="formulario">

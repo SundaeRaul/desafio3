@@ -2,6 +2,7 @@ div#box-left{
     width: 40%;
     border-right: 1px solid rgba(0,0,0,.6);
     padding: 20px;
+    animation-delay: 300ms;
 }
 
 div#box-left h1{
