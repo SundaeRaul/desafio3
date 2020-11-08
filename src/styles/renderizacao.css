@@ -1,0 +1,10 @@
+body{
+    overflow: hidden;
+}
+
+img{
+    margin: 0;
+}
+
+.show{display: block !important;}
+.hide{display: none !important;}
