@@ -1,0 +1,22 @@
+[
+    {
+        "descricao": "Nubank",
+        "valor": "171,00",
+        "data": "10/10/20"
+    },
+    {
+        "descricao": "Luz",
+        "valor": "205,00",
+        "data": "10/10/20"
+    },
+    {
+        "descricao": "Faculdade",
+        "valor": "585,00",
+        "data": "10/10/20"
+    },
+    {
+        "descricao": "Internet",
+        "valor": "129,90",
+        "data": "08/10/20"
+    }
+]

@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+}
+
+td{
+    padding: 5px 0;
+}
+
+table td.descricao{
+    width: 50%;
+}
+
+table td.valor{
+    width: 25%;
+}
+
+table td.data{
+    width: 25%;
+    text-align: right;
+}
