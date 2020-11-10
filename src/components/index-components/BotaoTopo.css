@@ -12,6 +12,6 @@
     text-align: center;
     line-height: 50px;
     cursor: pointer;
-    color: white;
+    color: white !important;
     font-size: 22px;
 }

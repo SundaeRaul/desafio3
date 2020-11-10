@@ -6,15 +6,13 @@ import Logo from '../../../src/images/logo2.png'
 class NavBar extends React.Component{
     render(){
         return(
-            <div className="navbar">
-                <div>
-                <a href="#"><img src={Logo} alt="Logo Financ"/></a> 
-                </div>
+            <div className="navbar">         
                 <ul>
+                    <li><Link to="/Index"><img src={Logo} alt="Logo Financ"/></Link></li>
                     <li><Link to="/Sobre">{this.props.btn1}</Link></li>
                     <li><Link to="/Contato">{this.props.btn2}</Link></li>
-                    <li><Link to="/Login">{this.props.btn3}</Link></li>
-                    <li><Link to="/Cadastro">{this.props.btn4}</Link></li>
+                    <li className="borda"><Link to="/Login">{this.props.btn3}</Link></li>
+                    <li className="borda"><Link to="/Cadastro">{this.props.btn4}</Link></li>
                 </ul>                
             </div>
         );

@@ -1,11 +1,9 @@
 import React from 'react';
-import DivBranca from'../components/Login-Components/Login-Branco';
-import DivVerde from'../components/Login-Components/Login-Verde';
+import DivBranca from '../components/Login-components/DivBranca';
+import DivVerde from '../components/Login-components/DivVerde';
 import '../styles/Login.css';
 
-
-
-function Login(){
+function Login() {
    return(
       <div className="corpo">
          <div id="container">

@@ -1,0 +1,40 @@
+.btm-part {
+    position: absolute;
+    left: 98px;
+    top: 430px;
+    width: 80%;
+    height: 456px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    width: auto;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    height: 0px;
+    border: 1px solid #8DB892;
+}
+
+.dados {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

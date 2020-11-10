@@ -12,4 +12,4 @@ class BotaoTopo extends React.Component {
     
 }
 
-export default BotaoTopo
+export default BotaoTopo;

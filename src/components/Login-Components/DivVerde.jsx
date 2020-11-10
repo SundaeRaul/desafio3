@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login-Verde.css';
+import './DivVerde.css';
 import Text from "./CompAninhado";
 
 function DivVerde(){
