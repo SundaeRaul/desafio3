@@ -1,0 +1,23 @@
+
+.corpoCadastro {
+    background-image: url("../images/img-de-fundo-Login.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BoxCadastro {
+    width: 70%;
+    height: 65%;
+    display: flex;
+    border-radius: 15%;
+}

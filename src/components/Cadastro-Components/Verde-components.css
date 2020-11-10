@@ -1,0 +1,44 @@
+.VerdeCadastro{
+    width: 40%;
+    height: 100%;
+    background:#8DB892;
+    border-radius:15% 0 0 15%;
+    text-align: center;
+    padding: 30px;
+}
+
+.VerdeCadastro h2{
+    padding: 30px;
+    margin-top: 100px;
+    font-size: 25pt;
+    color: #ffffff;
+}
+
+.VerdeCadastro p{
+    width: 65%;
+    padding: 30px;
+    margin-top: 80px;
+    font-size: 17pt;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.VerdeCadastro input{
+    background-color:transparent;
+    border: 1px solid white;
+    width: 40%;
+    padding: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+
+.VerdeCadastro input:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: white;
+}
+
