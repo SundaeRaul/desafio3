@@ -1,0 +1,22 @@
+.navbar {
+    background: #C5DBC7;
+    width: 100vw;
+    height: 123px;
+    position: absolute;
+}
+
+.logo {    
+    height: auto;
+    width: 150px;
+    position: sticky;
+    top: 3.2%;
+    left: 10%;
+}
+
+.menu {
+    position: fixed;
+    display: inline-block;
+    width: 70px;
+    top: 2.5%;
+    left: 2%;
+}

@@ -8,7 +8,7 @@ import '../styles/normalize.css'
 
 import { Link } from 'react-router-dom';
 
-function Index(){
+function Index() {
     return(
         <div className="body">
             <Navbar btn1="Sobre" btn2="Contato" btn3="Login" btn4="Cadastro"/>

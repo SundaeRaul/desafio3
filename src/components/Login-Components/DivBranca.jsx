@@ -1,5 +1,5 @@
 import React from 'react';
-import './Login-Branco.css';
+import './DivBranca.css';
 
  function DivBranca (props) {
     return (

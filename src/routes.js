@@ -6,6 +6,7 @@ import Index from './pages/index';
 import Login from './pages/Login';
 import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
+import Receitas from './pages/Receitas';
 import Renderizacao from './pages/Renderizacao';
 
 import { Switch, Route } from 'react-router-dom';
@@ -19,7 +20,11 @@ function Routes(){
             <Route path="/Contato" component={Contato} />
             <Route path="/Login" component={Login} />
             <Route path="/Despesas" component={Despesas} />
+<<<<<<< HEAD
+            <Route path="/Receitas" component={Receitas} />
+=======
             <Route path="/Renderizacao" component={Renderizacao} />
+>>>>>>> 31ecbbacaeef50b44067d093c42e2a20d0f67baa
 
         </Switch>
     );

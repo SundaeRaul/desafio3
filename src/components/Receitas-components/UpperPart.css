@@ -1,0 +1,67 @@
+.titulo {
+    font-size: 60px;
+    color: rgb(4,102,14,1);
+    position: absolute;
+    width: 230px;
+    height: auto;
+    left: 119px;
+    top: 184px;
+    line-height: 70px;
+}
+
+.bloco-bco {
+    position: absolute;
+    width: 80%;
+    height: 122px;
+    left: 98px;
+    top: 279px;
+    background-color: white; /* white */
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.retangulo1 {
+    background: #c5dbc7;
+    width: 240px;
+    height: 66.67px;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.retangulo2 {
+    background: #c5dbc7;
+    width: 340px;
+    height: 66.67px;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.retangulo3 {
+    background: #c5dbc7;
+    width: 240px;
+    height: 66.67px;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bloco-bco a, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.icone-botao {
+    width: 40px;
+    height: auto;
+}
