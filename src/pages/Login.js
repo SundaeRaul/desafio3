@@ -8,14 +8,11 @@ import '../styles/Login.css';
 function Login(){
    return(
       <div className="corpo">
-         <div id="container">
-            <div id="box">
+         <div id="box">
                <DivBranca label="Mostrar Senha"/>
                <DivVerde/>
-            </div>   
-         </div>
+         </div>   
       </div>
-      
    );
 }
 

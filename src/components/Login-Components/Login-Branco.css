@@ -1,6 +1,6 @@
 .branco{
     width: 60%;
-    height: 56vh;
+    height: 100%;
     background: #ffffff;
     border-radius:15% 0 0 15%;
     text-align: center;
@@ -24,11 +24,15 @@ input.LoginForm{
 }
 
 .MostrarSenha {
-    margin-left: -100px;
+    margin: 0 auto;
+}
+
+.MostrarSenha label {
+    position: relative;
 }
 
 .TextoSenha {
-    margin-left: 450px;
+    margin-left: 15px;
 }
 
 form{
