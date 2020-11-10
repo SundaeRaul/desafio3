@@ -1,20 +1,20 @@
-.verde{
+.VerdeCadastro{
     width: 40%;
     height: 100%;
     background:#8DB892;
-    border-radius:0 15% 15% 0;
+    border-radius:15% 0 0 15%;
     text-align: center;
     padding: 30px;
 }
 
- .verde h2{
+.VerdeCadastro h2{
     padding: 30px;
     margin-top: 100px;
     font-size: 25pt;
     color: #ffffff;
 }
 
-.verde p{
+.VerdeCadastro p{
     width: 65%;
     padding: 30px;
     margin-top: 80px;
@@ -23,7 +23,7 @@
     margin: 0 auto;
 }
 
-.verde input {
+.VerdeCadastro input{
     background-color:transparent;
     border: 1px solid white;
     width: 40%;
@@ -36,11 +36,9 @@
     transition: 0.5s;
 }
 
-.verde input.Cadastro {
-    width: auto;
+.VerdeCadastro input:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: white;
 }
 
-.verde input:hover{
-    background-color: white;
-    color: green;
-}

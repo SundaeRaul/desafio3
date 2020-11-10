@@ -1,4 +1,5 @@
-.corpo {
+
+.corpoCadastro {
     background-image: url("../images/img-de-fundo-Login.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +15,7 @@
     box-sizing: border-box;
 }
 
-div#box {
+.BoxCadastro {
     width: 70%;
     height: 65%;
     display: flex;
