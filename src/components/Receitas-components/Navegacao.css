@@ -6,8 +6,8 @@
 }
 
 .logo {    
-    height: auto;
-    width: 150px;
+    height: 70px !important;
+    width: auto !important;
     position: sticky;
     top: 3.2%;
     left: 10%;
@@ -16,7 +16,7 @@
 .menu {
     position: fixed;
     display: inline-block;
-    width: 70px;
+    width: 70px !important;
     top: 2.5%;
     left: 2%;
 }

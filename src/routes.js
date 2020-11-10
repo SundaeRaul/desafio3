@@ -1,6 +1,4 @@
 import React from 'react';
-
-import App from './pages/App';
 import Contato from './pages/Contato';
 import Index from './pages/index';
 import Login from './pages/Login';
@@ -14,17 +12,13 @@ import { Switch, Route } from 'react-router-dom';
 function Routes(){
     return(
         <Switch>
-            <Route path="/" component={App} exact/>
-            <Route path="/Index" component={Index} />
+            <Route path="/" component={Index} exact/>
             <Route path="/Sobre" component={Sobre} />
             <Route path="/Contato" component={Contato} />
             <Route path="/Login" component={Login} />
             <Route path="/Despesas" component={Despesas} />
-<<<<<<< HEAD
             <Route path="/Receitas" component={Receitas} />
-=======
             <Route path="/Renderizacao" component={Renderizacao} />
->>>>>>> 31ecbbacaeef50b44067d093c42e2a20d0f67baa
 
         </Switch>
     );
