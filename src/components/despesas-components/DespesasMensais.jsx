@@ -2,6 +2,8 @@ import React from 'react';
 
 import './DespesasMensais.css'
 
+import FormataDespesas from './FormataDespesas';
+
 function DespesasMensais() {
   return(
       <div id="DespesasMensais">
@@ -13,7 +15,11 @@ function DespesasMensais() {
           <hr></hr>
 
           <div id="despesa">
-              <div id="descricao">
+
+            <FormataDespesas />
+
+
+              {/* <div id="descricao">
                   <span>Nubank</span>
                   <span>Nubank</span>
               </div>
@@ -24,7 +30,7 @@ function DespesasMensais() {
               <div id="data">
                 <span>10/10/20</span>
                 <span>10/10/20</span>
-              </div>
+              </div> */}
           </div>
       </div>
   );
