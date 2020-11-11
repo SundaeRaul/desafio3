@@ -47,7 +47,7 @@ export default class Renderizacao extends React.Component {
     return (
         [
         imagem,
-        <div>
+        <div id="body">
             <AreaTexto classeSecundaria={this.state.classeDiv} texto="Clique no botão abaixo para esconder esta caixa de texto" />
             <Botao funcao={this.alterarEstado.bind(this)} valor={this.state.nomeBotao} />
         </div>

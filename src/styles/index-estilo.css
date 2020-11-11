@@ -6,3 +6,7 @@
     color: #04660e;
     user-select: none;
 }
+
+div.body {
+    scroll-behavior: smooth;
+}

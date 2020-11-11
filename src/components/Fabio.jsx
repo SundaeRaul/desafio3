@@ -14,7 +14,7 @@ class Fabio extends React.Component{
                 this.state.tempoBom ?
                 <div className="bomTempo"><p>O tempo está bom</p></div> :
                 <div className="mauTempo"><p>O tempo está mau</p></div>
-            )
+            );
         }
 }
 

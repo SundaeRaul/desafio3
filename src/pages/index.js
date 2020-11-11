@@ -6,8 +6,6 @@ import BotaoTopo from '../components/index-components/BotaoTopo';
 import '../styles/index-estilo.css';
 import '../styles/normalize.css'
 
-import { Link } from 'react-router-dom';
-
 function Index() {
     return(
         <div className="body">
