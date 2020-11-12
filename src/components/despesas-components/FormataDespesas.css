@@ -7,14 +7,22 @@ td{
 }
 
 table td.descricao{
-    width: 50%;
+    width: 40%;
 }
 
 table td.valor{
-    width: 25%;
+    width: 20%;
+    text-align: center;
+}
+
+table td.categoria{
+    width: 20%;
+    padding-left: 10px;
+    text-align: center;
+
 }
 
 table td.data{
-    width: 25%;
+    width: 20%;
     text-align: right;
 }

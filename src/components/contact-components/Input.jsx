@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './Input.css'
+import './media.css';
+
 
 function Input(props){
     return(

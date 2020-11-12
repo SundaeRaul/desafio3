@@ -1,0 +1,28 @@
+@media(max-width: 600px){
+    div.box{
+        flex-direction: column;
+        width: 80vw;
+    }
+
+    div#box-left{
+        width: 100% !important;
+        height: 60%;
+        border: none !important;
+    }
+
+    
+    div#mensagem{
+        width: 100% !important;
+        align-items: center;
+        height: 40%;
+    }
+
+    div#mensagem textarea{
+        width: 70%;
+    }
+
+    div#mensagem button#enviar{
+        height: 35px;
+    }
+
+}

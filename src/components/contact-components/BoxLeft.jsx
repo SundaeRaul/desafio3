@@ -1,5 +1,6 @@
 import React from 'react';
 import './BoxLeft.css';
+import './media.css';
 
 import Form from './Form';
 

@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './Form.css'
+import './media.css';
+
 import Input from './Input';
 
 function Form(){

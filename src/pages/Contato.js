@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 
 
 import '../styles/contato-estilo.css';
+import '../components/contact-components/media.css';
+
 
 
 import Header from '../components/Header';

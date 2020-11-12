@@ -8,29 +8,17 @@ function DespesasMensais() {
   return(
       <div id="DespesasMensais">
           <div id="header">
-              <span><strong>Descrição</strong></span>
-              <span><strong>Valor</strong></span>
-              <span><strong>Data</strong></span>
+              <div><strong>Descrição</strong></div>
+              <div><strong>Valor</strong></div>
+              <div><strong>Categoria</strong></div>
+              <div><strong>Data</strong></div>
           </div>
           <hr></hr>
 
           <div id="despesa">
 
             <FormataDespesas />
-
-
-              {/* <div id="descricao">
-                  <span>Nubank</span>
-                  <span>Nubank</span>
-              </div>
-              <div id="valor">
-                <span>R$ 171,00</span>
-                <span>R$ 171,00</span>
-              </div>
-              <div id="data">
-                <span>10/10/20</span>
-                <span>10/10/20</span>
-              </div> */}
+            
           </div>
       </div>
   );
