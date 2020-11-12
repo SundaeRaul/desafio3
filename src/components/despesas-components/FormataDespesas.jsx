@@ -13,6 +13,7 @@ function FormataDespesas() {
                 <tr>
                     <td className="descricao">{ post.descricao }</td>
                     <td className="valor">{ post.valor }</td>
+                    <td className="categoria">{ post.categoria }</td>
                     <td className="data">{ post.data }</td>
                 </tr>
               </>

@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './BoxRight.css';
+import './media.css';
+
 
 function BoxRight(){
     return(

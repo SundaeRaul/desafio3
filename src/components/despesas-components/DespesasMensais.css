@@ -7,11 +7,32 @@
     border-radius: 20px;
 }
 
-#DespesasMensais div#header{
-    width: 100%;
+div#header{
+    min-width: 100%;
+    height: auto;
     display: flex;
-    justify-content: space-between;
     padding: 5px 35px;
+}
+
+#DespesasMensais div#header div{
+    width: 20%;
+}
+
+#DespesasMensais div#header div:nth-child(2){
+    text-align: center;
+}
+
+#DespesasMensais div#header div:nth-child(3){
+    text-align: center;
+}
+
+#DespesasMensais div#header div:first-child{
+    width: 40%;
+}
+
+#DespesasMensais div#header div:last-child{
+    text-align: right;
+    padding-right: 20px;
 }
 
 hr{
