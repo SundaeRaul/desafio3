@@ -6,6 +6,7 @@ nav#navbar ul a {
     margin: 10px 20px;
     transition: 0.3s;
     cursor: pointer;
+    font-size: 18px;
 }
 
 

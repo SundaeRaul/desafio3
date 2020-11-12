@@ -25,6 +25,8 @@
     font-size: 25px;
     color: rgb(6, 110, 6);
     font-weight: 700;
+    margin: 0;
+    width: auto;
 }
 
 #grafico{
