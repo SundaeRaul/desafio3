@@ -2,9 +2,9 @@ import React from 'react';
 
 import '../styles/contato-estilo.css';
 
-import Header from '../components/Header'
-import BoxLeft from '../components/contact-components/BoxLeft'
-import BoxRight from '../components/contact-components/BoxRight'
+import Header from '../components/Header';
+import BoxLeft from '../components/contact-components/BoxLeft';
+import BoxRight from '../components/contact-components/BoxRight';
 
 function Contato(){
     return(
