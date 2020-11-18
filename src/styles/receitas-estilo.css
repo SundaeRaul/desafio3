@@ -17,3 +17,8 @@ body {
     background-position: center left;
     background-attachment: scroll;
 }
+
+#page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

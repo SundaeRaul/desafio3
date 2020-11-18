@@ -4,7 +4,7 @@ import Index from './pages/index';
 import Login from './pages/Login';
 import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
-import Receitas from './pages/Receitas';
+import Receitas from './pages/receitas';
 import Renderizacao from './pages/Renderizacao';
 import Cadastro from './pages/Cadastro';
 

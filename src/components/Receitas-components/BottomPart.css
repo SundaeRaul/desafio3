@@ -38,3 +38,13 @@ hr {
     justify-content: space-around;
     padding: 20px;
 }
+
+.receitas-container {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 43px;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}

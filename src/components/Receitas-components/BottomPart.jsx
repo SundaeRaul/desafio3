@@ -1,5 +1,6 @@
 import React from 'react';
 import './BottomPart.css';
+// import Receitas from './Receitas';
 
 class BottomPart extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class BottomPart extends React.Component {
                     <span>Salário</span>
                     <span>R$ 880,00</span>
                     <span>05/09/2020</span>
+                    {/* <Receitas /> */}
                 </div>
             </div>
         );

@@ -1,14 +1,21 @@
+* {
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar {
     background: #C5DBC7;
     width: 100vw;
     height: 123px;
-    position: absolute;
+    position: fixed;
+    top: 0;
 }
 
 .logo {    
     height: 70px !important;
     width: auto !important;
-    position: sticky;
+    position: fixed;
     top: 3.2%;
     left: 10%;
 }

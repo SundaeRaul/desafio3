@@ -1,0 +1,17 @@
+export const dadosReceitas = [
+    {
+        "fonte": "Salário",
+        "valor": "R$ 1.000,00",
+        "dia": "05/09/2020"
+    },
+    {
+        "fonte": "Comissão",
+        "valor": "R$ 200,00",
+        "dia": "15/09/2020"
+    },
+    {
+        "fonte": "Abono PIS",
+        "valor": "R$ 750,00",
+        "dia": "20/09/2020"
+    },
+];
