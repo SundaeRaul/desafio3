@@ -13,7 +13,7 @@ function Header(){
 
             <nav id="navbar">
                 <div>
-                    <Link to="/Index" title="FinanC">
+                    <Link to="/" title="FinanC">
                         <img src={ Logo } alt="Logo FinanC"></img>
                     </Link>
                 </div>

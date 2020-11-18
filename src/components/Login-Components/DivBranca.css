@@ -1,6 +1,6 @@
 .branco{
-    width: 60%;
-    height: 100%;
+    width: 60vw;
+    height: 100vh;
     background: #ffffff;
     border-radius:15% 0 0 15%;
     text-align: center;
@@ -18,7 +18,7 @@ input.LoginForm{
     padding: 15px 10px;
     color: rgba(0, 0, 0, 1);
     border-radius: 20px;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 15px;
     position: relative;
 }
@@ -36,7 +36,7 @@ input.LoginForm{
 }
 
 form{
-    width: 60%;
+    width: 60vw;
     margin: 150px auto 25px auto;
 }
 
@@ -52,7 +52,7 @@ input.MostrarSenha{
 
 .branco button {
     background-color: #8DB892;
-    width: 40%;
+    width: 40vh;
     padding: 20px;
     font-size: 16pt;
     color: #ffffff;
