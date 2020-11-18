@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../components/index-components/Navbar'
 import '../styles/Sobre-estilo.css'
+import Cards from '../components/Sobre-Components/card';
 
 function Sobre(){
     return(
@@ -11,6 +12,7 @@ function Sobre(){
                 
                 A equipe FinanC é formada por quatro alunos de engenharia de software da Uniamerica que são: Fabio Frasson, Fernando Fritzen, Luisa Ghellere e Raul Rios.
             </p>
+            <Cards/>
         </div>
     );
 
