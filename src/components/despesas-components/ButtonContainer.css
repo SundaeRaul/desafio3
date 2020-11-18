@@ -9,3 +9,24 @@
     padding: 0 40px;
     justify-content: space-between;
 }
+
+#ButtonContainer .iconButton{
+    background: #C5DBC7;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+button.despesa-botao{
+    background: #C5DBC7;
+
+    padding: 15px;
+    border: 0;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+button.despesa-botao span{
+    margin-left: 5px;
+}

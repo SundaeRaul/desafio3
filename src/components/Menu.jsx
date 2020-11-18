@@ -9,7 +9,7 @@ function Menu(){
     return(
         <ul>
             <li><Link to="/Sobre"> Sobre </Link></li>
-            <li><Link to="/Contato">Contato</Link></li>
+            <li><Link to="/contato">Contato</Link></li>
             <li><Link to="/Login"> Login </Link></li>
             <li><Link to="/Cadastro"> Cadastro </Link></li>
         </ul>
