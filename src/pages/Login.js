@@ -7,8 +7,8 @@ function Login() {
    return(
       <div className="corpo">
          <div id="box">
-               <DivBranca label="Mostrar Senha"/>
-               <DivVerde/>
+               {/* <DivBranca label="Mostrar Senha"/>
+               <DivVerde/> */}
          </div>   
       </div>
    );

@@ -8,7 +8,7 @@ class Navegacao extends React.Component {
         return (
             <div className="navbar">
                 <img className="logo" src={logo2} alt="" />
-                <a href="#"><img className="menu" src={menu} alt="" /></a>
+                {/* <a href="#"><img className="menu" src={menu} alt="" /></a> */}
             </div>
         );
     };

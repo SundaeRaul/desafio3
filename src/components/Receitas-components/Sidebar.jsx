@@ -1,9 +1,9 @@
 import React from 'react';
-import './BarraLateral.css';
+import './Sidebar.css';
 import { slide as Menu } from 'react-hamburger-menu';
 
 export default props => {
-    return (
+    return(
         <Menu>
             <a href="/" className="menu-item">Home</a>
             <a href="" className="menu-item">Receitas</a>
