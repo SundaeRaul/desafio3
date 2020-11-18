@@ -1,6 +1,6 @@
 import React from 'react';
-import DivBranca from '../components/Login-Components/DivBranca';
-import DivVerde from '../components/Login-Components/DivVerde';
+import DivBranca from '../components/Login-components/DivBranca';
+import DivVerde from '../components/Login-components/DivVerde';
 import '../styles/Login.css';
 
 function Login() {
