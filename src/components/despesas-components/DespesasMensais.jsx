@@ -13,6 +13,7 @@ function DespesasMensais() {
               <div><strong>Categoria</strong></div>
               <div><strong>Data</strong></div>
           </div>
+          <hr id="header-despesas"></hr>
 
           <div id="despesa">
 

@@ -10,7 +10,7 @@ class BottomPart extends React.Component {
                     <span>Valor</span>
                     <span>Data</span>
                 </div>
-                <hr />
+                <hr id="linha-header"></hr>
                 <div className="dados">
                     <span>Salário</span>
                     <span>R$ 880,00</span>

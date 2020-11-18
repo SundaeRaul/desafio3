@@ -22,7 +22,7 @@
     width: auto;
 }
 
-hr {
+hr#linha-header {
     width: 90%;
     margin: 0 auto;
     height: 0px;
