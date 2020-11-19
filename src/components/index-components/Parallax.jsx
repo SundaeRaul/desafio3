@@ -1,10 +1,6 @@
 import React from 'react';
 import './Parallax.css'
 import '../../styles/normalize.css'
-import Foto1 from '../../../src/images/1.jpg'
-import Foto2 from '../../../src/images/2.jpg'
-import Foto3 from '../../../src/images/3.jpg'
-import Foto4 from '../../../src/images/4.jpg'
 
 class Parallax extends React.Component {
     render(){
