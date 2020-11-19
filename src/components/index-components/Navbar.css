@@ -2,12 +2,12 @@ div.navbar {
     background: #c5dbc7;    
     display: flex;
     width: 100vw;
-    height: 100px;
+    height: 13%;
     z-index: 99;
 }
 
 .navbar img {
-    width: 180px;
+    width: 150px;
     height: auto;
 }
 
@@ -27,7 +27,7 @@ li {
     list-style-type: none;
     margin: 50px;
     text-align: center;
-    font-size: clamp(14px, 10vw, 28px);
+    font-size: clamp(10px, 9vw, 25px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,8 +36,8 @@ li {
 li.borda {
     border: 2px solid #04660e;
     border-radius: 25px;
-    width: 270px;
-    height: 72px;
+    width: 250px;
+    height: 65px;
     box-sizing: border-box;
 }
 
