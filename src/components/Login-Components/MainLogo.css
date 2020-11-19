@@ -1,0 +1,12 @@
+#container-mainlogo {
+    width: auto;
+    height: auto;
+    margin-top: -50px;
+    padding: 50px;
+}
+
+#logo {
+    width: 175px;
+    height: auto;
+    position: relative;
+}
