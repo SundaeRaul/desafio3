@@ -1,6 +1,6 @@
 .VerdeCadastro{
-    width: 40%;
-    height: 100%;
+    width: 30vw;
+    height: 70vh;
     background:#8DB892;
     border-radius:15% 0 0 15%;
     text-align: center;
@@ -32,7 +32,7 @@
     color: #ffffff;
     font-weight: bold;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: 180px;
     transition: 0.5s;
 }
 

@@ -1,6 +1,6 @@
 .verde{
-    width: 40vw;
-    height: 100vh;
+    width: 30vw;
+    height: 70vh;
     background:#8DB892;
     border-radius:0 15% 15% 0;
     text-align: center;
@@ -15,12 +15,12 @@
 }
 
 .verde p{
-    width: 65vw;
-    padding: 30px;
-    margin-top: 80px;
+    width: 25vw;
+    padding: 35px;
     font-size: 17pt;
     color: #ffffff;
-    margin: 0 auto;
+    text-align: center;
+    margin-left: 20px;
 }
 
 .verde input {
