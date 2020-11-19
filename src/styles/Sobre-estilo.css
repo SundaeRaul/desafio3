@@ -3,9 +3,14 @@ h1{
     
 }
 
-p{
+/* p{
     text-align: center;
     width: 70%;
     margin-top: 100px;
     margin-left: 200px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
 }

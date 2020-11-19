@@ -11,7 +11,7 @@ import luisa from '../../images/luisa.jpg'
 
 function Cards(){
     return(
-        <>
+        <div className="TeamContainer">
             <div className="TeamCard">
                 <img className="TeamImage" src={fabio} alt="foto"></img>
                 <strong className="TeamName">Fabrio Frasson</strong>
@@ -25,40 +25,40 @@ function Cards(){
         
          
             <div className="TeamCard">
-             <img className="TeamImage" src={raul} alt="foto"></img>
-             <strong className="TeamName">Raul Rios</strong>
-             <div class="TeamSocialMedia">
-                 <img className="TeamIcon" src={facebook} alt="facebook"/>                
-                 <img className="TeamIcon" src={twitter} alt="twitter"/>                
-                 <img className="TeamIcon" src={instagram} alt="instagram"/>                
-                 <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
-             </div>
-         </div>
+                <img className="TeamImage" src={raul} alt="foto"></img>
+                <strong className="TeamName">Raul Rios</strong>
+                <div class="TeamSocialMedia">
+                    <img className="TeamIcon" src={facebook} alt="facebook"/>                
+                    <img className="TeamIcon" src={twitter} alt="twitter"/>                
+                    <img className="TeamIcon" src={instagram} alt="instagram"/>                
+                    <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
+                </div>
+            </div>
      
       
             <div className="TeamCard">
-          <img className="TeamImage" src={fernando} alt="foto"></img>
-          <strong className="TeamName">Fernando Fritzen</strong>
-          <div class="TeamSocialMedia">
-              <img className="TeamIcon" src={facebook} alt="facebook"/>                
-              <img className="TeamIcon" src={twitter} alt="twitter"/>                
-              <img className="TeamIcon" src={instagram} alt="instagram"/>                
-              <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
-          </div>
-      </div>
+                <img className="TeamImage" src={fernando} alt="foto"></img>
+                <strong className="TeamName">Fernando Fritzen</strong>
+                <div class="TeamSocialMedia">
+                    <img className="TeamIcon" src={facebook} alt="facebook"/>                
+                    <img className="TeamIcon" src={twitter} alt="twitter"/>                
+                    <img className="TeamIcon" src={instagram} alt="instagram"/>                
+                    <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
+            </div>
+         </div>
   
 
             <div className="TeamCard">
-       <img className="TeamImage" src={luisa} alt="foto"></img>
-       <strong className="TeamName">Luisa Ghellere</strong>
-       <div class="TeamSocialMedia">
-           <img className="TeamIcon" src={facebook} alt="facebook"/>                
-           <img className="TeamIcon" src={twitter} alt="twitter"/>                
-           <img className="TeamIcon" src={instagram} alt="instagram"/>                
-           <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
-       </div>
-   </div>
-        </>
+                <img className="TeamImage" src={luisa} alt="foto"></img>
+                <strong className="TeamName">Luisa Ghellere</strong>
+                <div class="TeamSocialMedia">
+                    <img className="TeamIcon" src={facebook} alt="facebook"/>                
+                    <img className="TeamIcon" src={twitter} alt="twitter"/>                
+                    <img className="TeamIcon" src={instagram} alt="instagram"/>                
+                    <img className="TeamIcon" src={linkedin} alt="linkedin"/>            
+                </div>
+            </div>
+        </div>
 
     );
 }
