@@ -7,11 +7,11 @@ import './Menu.css';
 
 function Menu(){
     return(
-        <ul>
-            <li><Link to="/Sobre"> Sobre </Link></li>
-            <li><Link to="/contato">Contato</Link></li>
-            <li><Link to="/Login"> Login </Link></li>
-            <li><Link to="/Cadastro"> Cadastro </Link></li>
+        <ul className="unlist">
+            <li className="itlista"><Link to="/Sobre"> Sobre </Link></li>
+            <li className="itlista"><Link to="/contato">Contato</Link></li>
+            <li className="itlista"><Link to="/Login"> Login </Link></li>
+            <li className="itlista"><Link to="/Cadastro"> Cadastro </Link></li>
         </ul>
     );
 }

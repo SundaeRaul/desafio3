@@ -15,12 +15,12 @@ nav#navbar ul a:hover {
     background-color:  #04660E;
 }
 
-ul {
+.unlist {
     display: flex;
     justify-content: space-between;
 }
 
-li {    
+.itlista {    
     list-style-type: none;    
     margin: 50px;
     text-align: center;    
