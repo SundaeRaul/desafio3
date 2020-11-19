@@ -4,6 +4,7 @@ import DivVerdeCadastro from '../components/Cadastro-Components/Verde-components
 import DivBrancaCadastro from '../components/Cadastro-Components/Branco-components'
 import MainLogo from '../components/Login-Components/MainLogo'
 
+
 function Cadastro () {
     return(
         <div className="corpoCadastro">
