@@ -9,6 +9,8 @@ import Renderizacao from './pages/Renderizacao';
 import Cadastro from './pages/Cadastro';
 import NotFound from './pages/NotFound';
 import Teste from './pages/Teste';
+import Movimentacao from '../src/pages/Movimentacao'
+import Inicial from '../src/pages/Inicial'
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -24,6 +26,8 @@ function Routes(){
             <Route path="/Renderizacao" component={Renderizacao} />
             <Route path="/Cadastro" component={Cadastro}/>
             <Route path="/teste" component={Teste}/>
+            <Route path="/Movimentacao" component={Movimentacao}/>
+            <Route path="/Inicial" component={Inicial}/>
             <Route component={NotFound} />
 
         </Switch>

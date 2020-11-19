@@ -4,7 +4,7 @@ import "./BalançoGeral.css";
 function Balanço(){
     return(
         <div className="CardVerde">
-
+            
         </div>
     )
 
