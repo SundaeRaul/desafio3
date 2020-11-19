@@ -1,6 +1,6 @@
 header{
     width: 100vw;
-    height: 50px;
+    height: 8%;
     overflow: hidden;
     margin: 0;
     background:  #C5DBC7;
@@ -25,6 +25,7 @@ nav#navbar div {
 nav#navbar img {
     width: 75px;  
     height: auto;
+    display: flex;
 }
 
 

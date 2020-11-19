@@ -7,6 +7,7 @@ import Despesas from './pages/despesas';
 import Receitas from './pages/Receitas';
 import Renderizacao from './pages/Renderizacao';
 import Cadastro from './pages/Cadastro';
+import Teste from './pages/Teste';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ function Routes(){
             <Route path="/Receitas" component={Receitas} />
             <Route path="/Renderizacao" component={Renderizacao} />
             <Route path="/Cadastro" component={Cadastro}/>
+            <Route path="/teste" component={Teste}/>
 
         </Switch>
     );
