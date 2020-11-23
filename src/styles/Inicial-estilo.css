@@ -17,3 +17,11 @@ body {
     background-position: center left;
     background-attachment: scroll;
 }
+
+.PositionTop{
+    display: flex;
+}
+
+.PositionMiddle{
+    display: flex;
+}

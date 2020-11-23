@@ -4,9 +4,9 @@ import "./BalançoGeral.css";
 function Balanço(){
     return(
         <div className="CardVerde">
-            <h2 className="NomePessoa"> Olá, (nome) </h2>
-            <h1 className="Saudo"> R$ (valor) </h1>
-            <h3 className="Balanço"> Balanço geral </h3>
+            <h1 className="NomePessoa"> Olá, Luisa Ghellere </h1>
+            <h1 className="Saudo"> R$ 850,00 </h1>
+            <h2 className="Balanço"> Balanço geral </h2>
         </div>
     )
 
