@@ -4,18 +4,19 @@
 
 }
 
-#box-input input{
+#box-input input#contato{
     position: relative;
     width: 100%;
     height: 25px;
     border: none;
     border-bottom: 2px solid rgba(0,0,0,.6);
+    border-radius: 0;
     margin-bottom: 50px;
     padding: 0;
     outline: none;
 }
 
-label{
+label.labelContato{
     color: rgba(0,0,0,.6);
     position: absolute;
     left: 0;
