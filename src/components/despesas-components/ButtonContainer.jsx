@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { MdAddCircleOutline, MdPrint } from "react-icons/md";
 import { FaRegCalendar } from "react-icons/fa";
@@ -6,12 +6,11 @@ import './ButtonContainer.css';
 
 // import Button from './Button';
 
-function ButtonContainer() {
+function ButtonContainer({setShow}) {
   return(
     <div id="ButtonContainer">
 
-          
-        <button className="despesa-botao">
+        <button onClick={() => setShow(true)} className="despesa-botao" id="novaDespesa">
           <MdAddCircleOutline />
           <span>Nova transação</span>
         </button>

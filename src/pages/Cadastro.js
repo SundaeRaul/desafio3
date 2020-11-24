@@ -9,7 +9,7 @@ function Cadastro () {
     return(
         <div className="corpoCadastro">
             <MainLogo />
-            <div className="BoxCadastro">
+            <div id="BoxCadastro">
                 <DivVerdeCadastro />
                 <DivBrancaCadastro />
             </div>

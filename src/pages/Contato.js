@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import '../styles/contato-estilo.css';
 import '../components/contact-components/media.css';
 
+import Navbar from '../components/index-components/Navbar'
 
 
 import Header from '../components/Header';
@@ -16,8 +17,9 @@ function Contato() {
     return(
         <div className="contact-page">
 
-            <Header/>
-
+            {/* <Navbar btn1="Sobre" btn2="Contato" btn3="Login" btn4="Cadastro"/> */}
+            
+            <Header />
             <div className="page">
                 <div className="box">
                     <BoxLeft/>

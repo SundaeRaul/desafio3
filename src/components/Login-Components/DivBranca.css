@@ -1,10 +1,10 @@
 .branco{
-    width: 40vw;
-    height: 70vh;
+    width: 60%;
+    height: 100%;
     background: #ffffff;
     border-radius:15% 0 0 15%;
     text-align: center;
-    padding: 30px;
+    padding: 5px;
 }
 
 .ParteSup {
@@ -15,14 +15,14 @@ input.LoginForm{
     outline: none;
     background: rgba(0, 0, 0, .05);
     border: none;
-    padding: 15px 10px;
+    padding: 10px;
     color: rgba(0, 0, 0, 1);
     border-radius: 20px;
-    width: 20vw;
+    width: 50%;
     margin-bottom: 15px;
     position: relative;
     display: flex;
-    margin-left: 170px;
+    margin-left: 150px;
 }
 
 .MostrarSenha {
@@ -38,23 +38,23 @@ input.LoginForm{
 }
 
 .form{
-    width: 60vw;
-    margin: 150px auto 25px auto;
+    width: 60%;
+    margin: auto;
 }
 
 .branco h2{
-    margin-top: 120px;
+    margin-top: 70px;
     font-size: 25pt;
     color: #8DB892;
 }
 
 input.MostrarSenha{
-    width: 20px;
+    width: 30%;
 }
 
 .branco button {
     background-color: #8DB892;
-    width: 40vh;
+    width: 40%;
     padding: 20px;
     font-size: 16pt;
     color: #ffffff;
