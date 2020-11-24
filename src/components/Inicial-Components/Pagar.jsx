@@ -9,7 +9,7 @@ function ContasAPagar(){
                 <div className="BlocoText">
                     <ul className="ListNames">
                         <li>Netflix</li>
-                        <li>Prime video</li>
+                        <li>Prime</li>
                         <li>Faculdade</li>
                         <li>Trasporte</li>
                     </ul>

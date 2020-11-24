@@ -4,6 +4,8 @@ import Navegacao from '../components/Receitas-components/Navegacao';
 import '../styles/Inicial-estilo.css'
 import CadastroRapido from '../components/Inicial-Components/CadastroRapido'
 import ContasAPagar from '../components/Inicial-Components/Pagar'
+import ContasAReceber from '../components/Inicial-Components/Receber'
+
 
 function Inicial(){
     return(
@@ -16,6 +18,7 @@ function Inicial(){
                 </div>
                 <div className="PositionMiddle">
                 <ContasAPagar/>
+                <ContasAReceber/>
                 
                 </div>
             </div>
