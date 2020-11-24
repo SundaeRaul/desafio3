@@ -12,21 +12,21 @@ class UpperPart extends React.Component {
                 <div className="bloco-bco">
                     <div className="retangulo1">
                         <img className="icone-botao" src={circle} alt="" />
-                            <a href="#">
-                                <span>Nova transação</span>
-                            </a>
+                        <a href="#">
+                            <span>Nova transação</span>
+                        </a>
                     </div>
                     <div className="retangulo2">
                         <img className="icone-botao" src={print} alt="" />
-                            <a href="#">
-                                <span>Baixar relatório de entradas</span>
-                            </a>
+                        <a href="#">
+                            <span>Baixar relatório de entradas</span>
+                        </a>
                     </div>
                     <div className="retangulo3">
                         <img className="icone-botao" src={calendar} alt="" />
-                            <a href="#">
-                                <span>Filtrar por data</span>
-                            </a>
+                        <a href="#">
+                            <span>Filtrar por data</span>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,28 @@
+const receitas = [
+    {
+        "descricao": "Salário",
+        "valor": 1300.00,
+        "categoria": "Remuneração",
+        "data": "06/11/20"
+    },
+    {
+        "descricao": "Comissões",
+        "valor": 250.00,
+        "categoria": "Remuneração",
+        "data": "10/11/20"
+    },
+    {
+        "descricao": "Empréstimo",
+        "valor": 150.00,
+        "categoria": "Outros",
+        "data": "17/11/20"
+    },
+    {
+        "descricao": "Rendimentos Tesouro Selic",
+        "valor": 75.00,
+        "categoria": "Investimentos",
+        "data": "20/11/20"
+    }
+];
+
+export default receitas;
