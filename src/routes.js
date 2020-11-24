@@ -5,10 +5,8 @@ import Login from './pages/Login';
 import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
 import Receitas from './pages/Receitas';
-import Renderizacao from './pages/Renderizacao';
 import Cadastro from './pages/Cadastro';
 import NotFound from './pages/NotFound';
-import Teste from './pages/Teste';
 import Movimentacao from '../src/pages/Movimentacao'
 import Inicial from '../src/pages/Inicial'
 
@@ -23,9 +21,7 @@ function Routes(){
             <Route path="/Login" component={Login} />
             <Route path="/despesas" component={Despesas} />
             <Route path="/Receitas" component={Receitas} />
-            <Route path="/Renderizacao" component={Renderizacao} />
             <Route path="/Cadastro" component={Cadastro}/>
-            <Route path="/teste" component={Teste}/>
             <Route path="/Movimentacao" component={Movimentacao}/>
             <Route path="/Inicial" component={Inicial}/>
             <Route component={NotFound} />

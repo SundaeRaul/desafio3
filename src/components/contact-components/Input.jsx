@@ -8,7 +8,7 @@ function Input(props){
     return(
         <div id="box-input">
             <input id="contato" required="require"></input>
-            <label>{props.name}</label>
+            <label className="labelContato">{props.name}</label>
         </div>
     );
 }
