@@ -2,6 +2,8 @@ import React from 'react';
 
 import './MiddleWrapper.css';
 
+import Media from './Media';
+
 import Grafico from '../../images/grafico-de-pizza.png';
 
 function MiddleWrapper() {
@@ -9,7 +11,7 @@ function MiddleWrapper() {
     <div id="middlewrapper">
         <div id="media">
             <h2>Média mensal</h2>
-            <p>R$ 650,00</p>
+            <Media />
         </div>
         <div id="grafico">
           <img src={Grafico}></img>

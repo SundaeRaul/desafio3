@@ -21,15 +21,6 @@
     font-size: clamp(15px, 30px, 35px);
 }
 
-#media p{
-    position: relative;
-    font-size: 25px;
-    color: rgb(6, 110, 6);
-    font-weight: 700;
-    margin: 0;
-    width: auto;
-}
-
 #grafico{
     width: 70%;
     height: 100%;

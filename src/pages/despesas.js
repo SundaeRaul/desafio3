@@ -19,7 +19,6 @@ function Despesas(){
             <Wrapper setShow={setShow}/>
 
             <Modal show={show} closeModalHandler={closeModalHandler} />
-
         </div>
     );
 }
