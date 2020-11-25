@@ -7,8 +7,9 @@ class Navegacao extends React.Component {
     render() {
         return (
             <div className="navbar">
+                <a href="#" className="linkmenu"><img className="menu" src={menu} alt="" /></a>
                 <img className="logo" src={logo2} alt="" />
-                <a href="#"><img className="menu" src={menu} alt="" /></a>
+                
             </div>
         );
     };

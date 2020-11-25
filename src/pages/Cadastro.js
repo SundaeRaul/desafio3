@@ -2,12 +2,12 @@ import React from  'react'
 import '../styles/Cadastro.css'
 import DivVerdeCadastro from '../components/Cadastro-Components/Verde-components'
 import DivBrancaCadastro from '../components/Cadastro-Components/Branco-components'
-import MainLogo from '../components/Login-Components/MainLogo'
+import MainLogo from '../components/Login-Components/MainLogo';
 
 
 function Cadastro () {
     return(
-        <div className="corpoCadastro">
+        <div className="corpo">
             <MainLogo />
             <div id="BoxCadastro">
                 <DivVerdeCadastro />
