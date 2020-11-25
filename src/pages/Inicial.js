@@ -11,7 +11,7 @@ function Inicial(){
     return(
         <>
         <Navegacao/>
-            <div className="corpo">
+            <div className="PositionAll">
                 <div className="PositionTop">
                     <Balanço/>
                     <CadastroRapido/>
