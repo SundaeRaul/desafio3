@@ -3,17 +3,16 @@
     margin: 0;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    font-family: 'Roboto', sans-serif; 
-}
-
-.corpo {
-    width: 100%;
-    height: 100%;       
-    background-image: url(../images/img-de-fundo.jpeg);
+.Movimentacao {
+    background-image: url("../images/img-de-fundo-Login.jpeg"); 
     background-size: cover;
-    background-position: center left;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }

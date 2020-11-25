@@ -14,14 +14,14 @@
     color: rgba(0, 0, 0, 1);
     border-radius: 20px;
     width: 60%;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
     position: relative;
-    margin-left: 100px;
+    margin-left: 20%;
     display: flex;
 }
 
 .BrancoCadastro h2{
-    margin-top: 30px;
+    margin-top: 10%;
     font-size: 25pt;
     color: #8DB892;
 }
@@ -47,6 +47,6 @@
 
 .BrancoCadastro form{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 5%;
     padding: 20px;
 }

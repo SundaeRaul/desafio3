@@ -8,7 +8,7 @@ function Movimentacao(){
     return(
         <>
             <Navegacao/>
-            <div className="corpo">
+            <div className="Movimentacao">
                 <Bloco/>
             </div>
         </>

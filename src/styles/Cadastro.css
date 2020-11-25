@@ -1,10 +1,10 @@
 
-.corpo {
+.Cadastro {
     background-image: url("../images/img-de-fundo-Login.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow-y: hidden;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
