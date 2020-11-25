@@ -7,7 +7,7 @@ import MainLogo from '../components/Login-Components/MainLogo';
 
 function Cadastro () {
     return(
-        <div className="corpo">
+        <div className="Cadastro">
             <MainLogo />
             <div id="BoxCadastro">
                 <DivVerdeCadastro />
