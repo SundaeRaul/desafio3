@@ -9,4 +9,6 @@ div#Login{
     height: 100vh;
     overflow-x: hidden;
     background: #f0f0f7;
+    display: flex;
+    align-items: center;
 }
