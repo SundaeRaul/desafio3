@@ -5,7 +5,8 @@ import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
 import Receitas from './pages/Receitas';
 import NotFound from './pages/NotFound';
-import Inicial from '../src/pages/Inicial'
+import Inicial from '../src/pages/Inicial';
+import Login from './pages/Login';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function Routes(){
             <Route path="/despesas" component={Despesas} />
             <Route path="/Receitas" component={Receitas} />
             <Route path="/Inicial" component={Inicial}/>
+            <Route path ="/Login" component={Login}/>
             <Route component={NotFound} />
 
         </Switch>
