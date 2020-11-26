@@ -24,7 +24,7 @@
 .verde input {
     background-color:transparent;
     border: 1px solid white;
-    width: 40%;
+    width: 50%;
     padding: 20px;
     font-size: 16pt;
     color: #ffffff;
@@ -36,6 +36,10 @@
 
 .verde input.Cadastro {
     width: auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .verde input:hover{

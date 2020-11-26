@@ -55,6 +55,7 @@ input.MostrarSenha{
 .branco button {
     background-color: #8DB892;
     width: 40%;
+    height: auto;
     padding: 20px;
     font-size: 16pt;
     color: #ffffff;
