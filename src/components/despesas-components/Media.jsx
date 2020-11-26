@@ -6,10 +6,9 @@ import './Media.css';
 function Media() {
 
     var total = 0;
-
     var soma = 0;
-
     var media = 0;
+    
     Data.map(post => {
         soma += parseFloat(post.valor)
         total += 1
@@ -19,7 +18,7 @@ function Media() {
 
   return(
     <p id="mediaMensal">        
-        R$ {media}
+        {media.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
     </p>
    );
 }
