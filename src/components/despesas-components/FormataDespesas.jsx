@@ -4,6 +4,8 @@ import './FormataDespesas.css'
 
 import Data from '../../JSON/despesas.json';
 
+var valor = 0;
+
 function FormataDespesas() {
   return(
       <table>
@@ -12,9 +14,9 @@ function FormataDespesas() {
               <>
                 <tr>
                     <td className="descricao">{ post.descricao }</td>
-                    <td className="valor">{ post.valor }</td>
+                    <td className="valor">{ parseFloat(post.valor).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</td>
                     <td className="categoria">{ post.categoria }</td>
-                    <td className="data">{ post.data }</td>
+                    <td className="data">{ post.data}</td>
                 </tr>
               </>
             )

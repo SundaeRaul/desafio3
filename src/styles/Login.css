@@ -1,20 +1,12 @@
-.Login {
-    background-image: url("../images/img-de-fundo-Login.jpeg"); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-y: hidden;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-div#box {
-    width: 70%;
-    height: 70%;
-    display: flex;
-    border-radius: 15%;
+div#Login{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: #f0f0f7;
 }
