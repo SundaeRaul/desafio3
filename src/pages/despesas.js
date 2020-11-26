@@ -11,14 +11,14 @@ function Despesas(){
 
     const [show, setShow] = useState(false);
 
-    const closeModalHandler = () => setShow(false);
+    const close = () => setShow(false);
 
     return(
         <div id="despesas">
             <Header />
             <Wrapper setShow={setShow}/>
 
-            <Modal show={show} closeModalHandler={closeModalHandler} />
+            <Modal show={show} close={close} />
         </div>
     );
 }

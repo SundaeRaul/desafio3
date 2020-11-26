@@ -4,7 +4,7 @@ import './Modal.css';
 
 // import './jsjs';
 
-export const Modal = ({ show, closeModalHandler }) => {
+export const Modal = ({ show, close }) => {
 
 
     return (
@@ -13,7 +13,7 @@ export const Modal = ({ show, closeModalHandler }) => {
             display: show ? 'flex' : 'none'
         }}>
             <div id="modalContainer">
-                <div id="fechar" onClick={closeModalHandler}>+</div>
+                <div id="fechar" onClick={close}>+</div>
                 <div id="headerModal"><h3>Despesas</h3></div>
 
                 <form>
