@@ -1,13 +1,13 @@
-import React from "react";
-import "./BoxLogin.css";
-import DivBranca from "./DivBranca";
-import DivVerde from "./DivVerde"
+import React from 'react';
+import './BoxLogin.css';
+import DivBranca from './DivBranca';
+import DivVerde from './DivVerde';
 
-function BoxLogin (){
+function BoxLogin(){
     return(
-        <div className="BoxCadastro">
-            <DivBranca label="mostrar Senha"/>
-            <DivVerde/>
+        <div id="BoxLogin">
+            <DivBranca />
+            <DivVerde />
         </div>
     );
 }

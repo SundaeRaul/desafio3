@@ -1,0 +1,9 @@
+.recTabela {
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.recTabela th {
+    line-height: 40px;;
+}
