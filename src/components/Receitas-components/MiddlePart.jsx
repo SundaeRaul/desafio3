@@ -7,8 +7,8 @@ class MiddlePart extends React.Component {
     return (
       <div className="middleContainer">
         <div className="middleContainerLeft">
-          <h3>Média mensal</h3>
-          <h2>R$ 1.775,00</h2>
+          <span className="tituloMiddleContainer"><strong>Média mensal</strong></span>
+          <span className="valorMiddleContainer"><strong>R$ 1.775,00</strong></span>
         </div>
         <div className="middleContainerRight">
           <PieChart

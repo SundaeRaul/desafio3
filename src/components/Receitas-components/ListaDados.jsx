@@ -23,7 +23,7 @@ function ListaDados() {
               <td>{income.descricao}</td>
               {/* <td>R$ {income.valor.toFixed(2)}</td> */}
               <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
-              <td>{income.categoria}</td>
+              <td id="categoriaListaDados">{income.categoria}</td>
               <td>{income.data}</td>
             </tr>
           );

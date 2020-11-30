@@ -38,3 +38,8 @@ hr#linha-header {
     padding: 20px;
     height: auto;
 }
+
+.categoriaListaDados {
+    background-color:  #C5DBC7;
+    border-radius: 5px;
+}
