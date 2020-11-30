@@ -7,6 +7,8 @@ import Receitas from './pages/Receitas';
 import NotFound from './pages/NotFound';
 import Inicial from '../src/pages/Inicial';
 import Login from './pages/Login';
+import Cadastro from './pages/Cadastro'
+
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -20,6 +22,7 @@ function Routes(){
             <Route path="/Receitas" component={Receitas} />
             <Route path="/Inicial" component={Inicial}/>
             <Route path ="/Login" component={Login}/>
+            <Route path ="/Cadastro" component={Cadastro}/>
             <Route component={NotFound} />
 
         </Switch>

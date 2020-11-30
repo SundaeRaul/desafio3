@@ -1,0 +1,46 @@
+.middleContainer {
+    width: 85%;
+    position: absolute;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middleContainerLeft {
+    height: 200px;
+    top: 220px;
+    left: 98px;
+    position: absolute;
+    background-color: white;
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    box-shadow: 1.5px 1.5px 3px #C5DBC7;
+    border-radius: 17px;
+}
+
+.valorMiddleContainer {
+    color: #04660E;
+}
+
+.middleContainerRight {
+    height: 200px;
+    top: 220px;
+    left: 677px;
+    position: absolute;
+    background-color: white;
+    width: 49.5%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1.5px 1.5px 3px #C5DBC7;
+    border-radius: 17px; 
+}
+
+.piegraph {
+    width: 150px;
+    height: auto;
+}

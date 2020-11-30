@@ -3,6 +3,7 @@
     width: 100%;
     height: 60px;
     position: fixed;
+    overflow: hidden;
     display: flex;
     justify-content: left space-around;
     align-items: center;
