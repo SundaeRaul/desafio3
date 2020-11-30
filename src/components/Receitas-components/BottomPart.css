@@ -1,7 +1,7 @@
 .btm-part {
     position: absolute;
     left: 98px;
-    top: 220px;
+    top: 438px;
     width: 85%;
     height: auto;
     background-color: white;
@@ -37,4 +37,9 @@ hr#linha-header {
     justify-content: space-around;
     padding: 20px;
     height: auto;
+}
+
+.categoriaListaDados {
+    background-color:  #C5DBC7;
+    border-radius: 5px;
 }

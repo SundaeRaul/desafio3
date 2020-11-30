@@ -1,18 +1,12 @@
-import React from  'react'
-import '../styles/Cadastro.css'
-import DivVerdeCadastro from '../components/Cadastro-Components/Verde-components'
-import DivBrancaCadastro from '../components/Cadastro-Components/Branco-components'
-import MainLogo from '../components/Login-Components/MainLogo';
+import React from 'react';
+import '../styles/Cadastro.css';
+import BoxCadastro from '../components/Cadastro-Components/BoxCadastro';
 
 
-function Cadastro () {
+function Cadastro(){
     return(
-        <div className="Cadastro">
-            <MainLogo />
-            <div id="BoxCadastro">
-                <DivVerdeCadastro />
-                <DivBrancaCadastro />
-            </div>
+        <div id="Cadastro">
+            <BoxCadastro />
         </div>
     );
 }
