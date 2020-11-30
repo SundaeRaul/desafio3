@@ -4,8 +4,8 @@ import './MiddleWrapper.css';
 
 import Media from './Media';
 
-import Grafico from '../../images/grafico-de-pizza.png';
-
+// import Grafico from '../../images/grafico-de-pizza.png';
+import Grafico from './Grafico';
 function MiddleWrapper() {
   return(
     <div id="middlewrapper">
@@ -13,8 +13,9 @@ function MiddleWrapper() {
             <h2>Média mensal</h2>
             <Media />
         </div>
-        <div id="grafico">
-          <img src={Grafico}></img>
+        <div id="chart-container">
+          <Grafico height="200" width="400"/>
+          {/* <img src={Grafico}></img> */}
         </div>
     </div>
   );
