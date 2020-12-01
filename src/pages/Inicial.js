@@ -1,25 +1,28 @@
 import React from 'react';
-import Balanço from '../components/Inicial-Components/BalaçoGeral';
+import '../styles/Inicial-estilo.css';
 import Navegacao from '../components/Receitas-components/Navegacao';
-import '../styles/Inicial-estilo.css'
-import CadastroRapido from '../components/Inicial-Components/CadastroRapido'
-import ContasAPagar from '../components/Inicial-Components/Pagar'
-import ContasAReceber from '../components/Inicial-Components/Receber'
+import Balanço from '../components/Inicial-Components/BalaçoGeral';
+import CadastroRapido from '../components/Inicial-Components/CadastroRapido';
+import ContasAPagar from '../components/Inicial-Components/Pagar';
+import ContasAReceber from '../components/Inicial-Components/Receber';
+import MesAtual from '../components/Inicial-Components/MesAtual';
 
 
 function Inicial(){
     return(
-        <>
-        <Navegacao/>
-            <div className="PositionAll">
-                <div className="PositionTop">
+        <> 
+            <Navegacao/>
+            <div className="containerGeral">
+                <div className="containerTopo">
                     <Balanço/>
                     <CadastroRapido/>
                 </div>
-                <div className="PositionMiddle">
-                <ContasAPagar/>
-                <ContasAReceber/>
-                
+                <div className="containerMeio">
+                    <ContasAPagar/>
+                    <ContasAReceber/>
+                </div>
+                <div className="containerBaixo">
+                    <MesAtual/>
                 </div>
             </div>
         </>

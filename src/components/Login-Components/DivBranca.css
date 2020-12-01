@@ -28,7 +28,7 @@
 } 
 
 .DivBranca h2{
-    align-items: flex-start;
+    align-self: center;
     font-size: 25pt;
     color: #8DB892;
 }

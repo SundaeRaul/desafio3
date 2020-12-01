@@ -3,27 +3,38 @@
     margin: 0;
 }
 
-body {
+.containerGeral {
+    display: flex;
     width: 100vw;
     height: 100vh;
     font-family: 'Roboto', sans-serif; 
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f7;
 }
 
-.PisitionAll {
-    width: 100vw;
-    height: 100vh;       
-    background-image: url(../images/img-de-fundo.jpeg);
-    background-size: cover;
-    background-position: center left;
-    background-attachment: scroll;
-}
-
-.PositionTop{
-    display: flex;
-}
-
-.PositionMiddle{
+.containerTopo{
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    height: 30%;
+    width: 80%;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.containerMeio{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+    width: 80%;
+    padding: 20px;    
+}
+
+.containerBaixo{
+    height: 30%;
+    width: 80%;
+    padding: 20px;
+    background-color: black;
+
 }

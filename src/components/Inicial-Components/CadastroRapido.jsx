@@ -1,6 +1,5 @@
 import React from "react";
 import "./CadastroRapido.css";
-import circle from '../../icons/add-circle-outline.svg';
 import { AiOutlineMinusCircle } from "react-icons/ai";
 import {AiOutlinePlusCircle} from "react-icons/ai";
 
@@ -12,7 +11,7 @@ function CadastroRapido(){
                 <AiOutlinePlusCircle size="60px" className="plus"/>
                 <AiOutlineMinusCircle size="60px" className="minus"/>
             </div>
-            <div className="Receiadespesa">
+            <div className="Receitadespesa">
                 <h2 className="classificaçao"> Receita</h2>
                 <h2 className="classificaçao"> Despesa</h2>
             </div>
