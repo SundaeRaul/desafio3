@@ -1,10 +1,15 @@
-.CardVerde{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
+.boxVerde{
     background-color: #c5dbc7;
-    padding: 30px;
-    margin-left: 80px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    line-height: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
 }
+
+.Balanço{
+    font-size: 16px;
+}
+
