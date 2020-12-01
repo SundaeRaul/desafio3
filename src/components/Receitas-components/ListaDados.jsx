@@ -23,7 +23,7 @@ function ListaDados() {
               <td>{income.descricao}</td>
               {/* <td>R$ {income.valor.toFixed(2)}</td> */}
               <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
-              <td id="categoriaListaDados">{income.categoria}</td>
+              <td /*id={} pode-se utilizar um condicional JS para alterar o CSS da propriedade JSON; inclusive um condicional dentro do outro (na parte de false)*/>{income.categoria}</td>
               <td>{income.data}</td>
             </tr>
           );

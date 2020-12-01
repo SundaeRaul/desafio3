@@ -1,6 +1,7 @@
 import React from 'react';
 import { DefaultContext } from 'react-icons';
 import './DivBranca.css';
+import { Link } from 'react-router-dom';
 
 function DivBranca(){
     return(
@@ -14,7 +15,7 @@ function DivBranca(){
                 <input type="checkbox" id="MostrarSenha" name="vehicle1" value="Bike"/>
                 <label for="vehicle1">Mostrar Senha</label>
             </div>   
-            <button type="submit" className="buttonLogar">Logar</button>
+            <Link to="/Login"><button type="submit" className="buttonLogar">Logar</button></Link>
         </div>
     );
 }
