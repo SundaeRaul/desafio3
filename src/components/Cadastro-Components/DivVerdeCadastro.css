@@ -11,7 +11,7 @@
 }
 
 .DivVerdeCadastro h2{
-    align-items: flex-start;
+    align-self: auto;
     font-size: 25pt;
     color: white;
 }
