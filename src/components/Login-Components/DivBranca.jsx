@@ -11,11 +11,11 @@ function DivBranca(){
                 <input type="text" placeholder="RA"/>
                 <input type="password" placeholder="Senha"/>
             </form>
-            <div className="Checkbox">      
+            <div className="CheckboxLogin">      
                 <input type="checkbox" id="MostrarSenha" name="vehicle1" value="Bike"/>
                 <label for="vehicle1">Mostrar Senha</label>
             </div>   
-            <Link to="/Login"><button type="submit" className="buttonLogar">Logar</button></Link>
+            <Link to="/Inicial" ><button type="submit" className="buttonLogar">Logar</button></Link>
         </div>
     );
 }

@@ -33,7 +33,7 @@
     color: #8DB892;
 }
 
-.Checkbox{
+.CheckboxLogin{
     width: 40%;
     height: 10%;
     align-self: center;
@@ -46,7 +46,7 @@ label{
 
 .DivBranca button {
     background-color: #8DB892;
-    width: 40%;
+    width: 100%;
     padding: 20px;
     font-size: 16pt;
     color: #ffffff;
@@ -62,3 +62,4 @@ label{
     border: 2px solid green;
     color: green;
 }
+

@@ -11,6 +11,6 @@ div#Movimentacao{
     background: #f0f0f7;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-flow: column nowrap;
 }

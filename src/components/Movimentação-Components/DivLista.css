@@ -1,0 +1,11 @@
+.DivLista{
+    width: 80%;
+    height: 60%;
+    border: solid 2px #8DB892;
+    border-radius: 15px;
+}
+
+.Duaslistas{
+    width: 100%;
+    height: 80%;
+}
