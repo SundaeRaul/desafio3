@@ -1,10 +1,9 @@
 .TopoMov{
-    margin-top: 6%;
+    margin-top: 8%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
     align-items: center;
-    border: solid 2px #8DB892;
     flex-wrap: nowrap;
     border-radius: 15px;
 }

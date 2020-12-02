@@ -6,30 +6,42 @@ import {AiOutlinePlusCircle} from "react-icons/ai";
 function DivLista(){
     return(
         <div className="DivLista">
-            <div classname="Duaslistas">
-                <div classname="ListaItens">
-                    <ul classname="UlItens">
-                        <li>Salário</li>
-                        <li>Netflix</li>
-                        <li>Spotify</li>
-                        <li>Gasolina</li>
-                        <li>Cinema</li>
-                        <li>Gorjeta</li>
-                    </ul>
-                </div>
-
-                <div classname="ListaPreços">
-                    <ul classname="UlPreços">
-                        <li><AiOutlinePlusCircle/>R$ 2.000,00</li>
-                        <li><AiOutlineMinusCircle/>R$ 45,90</li>
-                        <li><AiOutlineMinusCircle/>R$ 26,90</li>
-                        <li><AiOutlineMinusCircle/>R$ 300,00</li>
-                        <li><AiOutlineMinusCircle/>R$ 50,00</li>
-                        <li><AiOutlinePlusCircle/>R$ 30,00</li>
-                    </ul>
-                </div>
+            <table className="TableMov">
+                <tr className="TrTable">
+                    <td>Salário</td>
+                    <td><AiOutlinePlusCircle color ="green"/>R$ 2.000,00</td> 
+                </tr>
+                <tr className="TrTable">
+                    <td>Netflix</td>
+                    <td><AiOutlineMinusCircle color = "red"/>R$ 45,00</td>
+                </tr>
+                <tr className="TrTable">
+                    <td>Spotify</td>
+                    <td><AiOutlineMinusCircle color = "red"/>R$ 26,90</td>
+                </tr>
+                <tr className="TrTable">
+                    <td>Gasolina</td>
+                    <td><AiOutlineMinusCircle color = "red"/>R$ 300,00</td>
+                </tr>
+                <tr className="TrTable">
+                    <td>Cinema</td>
+                    <td><AiOutlineMinusCircle color = "red"/>R$ 50,00</td>
+                </tr>
+                <tr className="TrTable">
+                    <td>Gorjeta</td>
+                    <td><AiOutlinePlusCircle color ="green"/>R$ 30,00</td>
+                </tr>
+            </table>
+            <div className="MovLinha">   
+                <hr color="#8DB892" classname="LinhaMov"/>
             </div>
-            <hr classname="LinhaMov"/>
+            <table className="Saldo">
+                <tr className="TrSaldo">
+                    <td>Saldo</td>
+                    <td>R$ 1607,20</td>
+                </tr>
+            </table>
+                 
         </div>
     );
 }

@@ -5,7 +5,36 @@
     border-radius: 15px;
 }
 
-.Duaslistas{
+.TableMov{
+    margin-top: 20px;
+    display: flex;
     width: 100%;
-    height: 80%;
+    height: 75%;
+    font-size: 20pt;
+    font-weight: bold;
+    flex-flow: column nowrap;
+}
+
+.TrTable{
+    display: flex;
+    justify-content: space-around;
+}
+
+.MovLinha{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.Saldo{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    font-size: 28pt;
+    font-weight: bolder;
+}
+
+.TrSaldo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
 }
