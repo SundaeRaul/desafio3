@@ -1,50 +1,48 @@
-.modalRec {
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.modalreceitas {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    position: absolute;
+    /* background: rgba(0,0,0,.7); */
+    top: 0;
+    align-items: center;
+    overflow: hidden;
+}
+
+.modalreceitas-wrapper {
+    width: 550px;
+    height: 600px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 30px;
+    position: relative;
+    border: 5px solid #C5DBC7;
+    border-radius: 25px;
+}
+
+.modareceitas-header {
+    height: 30%;
+}
+
+.modalreceitas-fechar {
     position: absolute;
     top: 0;
-    left: 0;
-    z-index: 10;
-    background-color: rgba(0,0,0,.80);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.modalRecCont {
-    background-color: #fff;
-    color: #000;
-    width: 650px;
-    height: 650px;
-    border-radius: 17px;
-}
-
-.closeRec {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    width: 32px;
-    height: 32px;
-    right: calc(-100% + 64px);
-    top: 16px;
+    right: 15px;
+    font-size: 35px;
     cursor: pointer;
-    display: flex;
-    position: relative;
-    align-items: center;
 }
 
-.closeRec::before, .closeRec::after {
-    content: ' ';
-    position: absolute;
-    width: 2.5px;
-    height: 24px;
-    background-color: #000;    
+.modalreceitas-upperpart {
+
 }
 
-.closeRec::before {
-    transform: rotate(45deg);
+.modalreceitas-middlepart {
+
 }
 
-.closeRec::after {
-    transform: rotate(-45deg);
+.modalreceitas-bottompart {
+
 }

@@ -8,6 +8,7 @@ function ListaDados() {
     style: "currency",
     currency: "BRL"
   };
+  const Categoria = data.receitas.categoria
   return (
     <div>
       <table className="recTabela">
@@ -21,9 +22,10 @@ function ListaDados() {
           return (
             <tr key={income.id}>
               <td>{income.descricao}</td>
-              {/* <td>R$ {income.valor.toFixed(2)}</td> */}
               <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
-              <td /*id={} pode-se utilizar um condicional JS para alterar o CSS da propriedade JSON; inclusive um condicional dentro do outro (na parte de false)*/>{income.categoria}</td>
+              
+              <td className={Categoria == "Remuneração" ? 'Remuneracao' : (Categoria == "Investimentos" ? 'Investimentos' : (Categoria == "Outros" ? 'Outros' : ''))} >{income.categoria}</td>
+
               <td>{income.data}</td>
             </tr>
           );

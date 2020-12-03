@@ -1,14 +1,27 @@
 .recTabela {
-    padding: 10px;
+    padding: 5px;
     line-height: 30px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .recTabela th {
-    line-height: 40px;;
+    line-height: 40px;
 }
 
-/* #categoriaListaDados {
+#categoriaListaDados {
     background-color: #C5DBC7;
     border-radius: 5px;
-} */
+} 
+
+.Remuneracao {
+    background-color: #C5DBC7;
+}
+
+.Investimentos {
+    
+}
+
+.Outros {
+    
+}

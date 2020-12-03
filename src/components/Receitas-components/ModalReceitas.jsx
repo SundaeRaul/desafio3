@@ -1,19 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './ModalReceitas.css'
 
-const ModalReceitas = ({ id="modalRec", onClose= () => {}, children }) => {
-
-    const handleOutsideClick = (e) => {
-        if (e.target.id === id) onClose();
-    };
-
+export const ModalReceitas = ({ show, closeModalHandler }) => {
     return (
-        <div id={id} className="modalRec" onClick={handleOutsideClick}>
-            <div className="modalRecCont">
-                <button className="closeRec" onClick={onClose}/>
-                <div className="modalConteudo">{children}</div>
+        <div className="modalreceitas">
+            <div className="modalreceitas-wrapper"
+            style={{
+                opacity: show ? '1' : '0'
+            }}
+            >
+                <div className="modareceitas-header">
+                    <p>Recebimentos</p>
+                    <div className="modalreceitas-fechar"
+                    onClick={closeModalHandler}>x</div>
+                </div>
+                <div className="modalreceitas-upperpart">
+                    <label htmlFor="">Name</label>
+                    <input type="text"/>
+                    <label htmlFor="">Valor</label>
+                    <input type="number"/>
+                <div className="modalreceitas-middlepart">
+                    
+                </div>
+                    <label htmlFor="">Categoria</label>
+                    <input type="text"/>
+                    <label htmlFor="">Data</label>
+                    <input type="date"/>
+                </div>
+                <div className="modalreceitas-bottompart">
+                    <label htmlFor="">Descrição</label>
+                    <textarea/>
+                    <button>Adicionar</button>
+                </div>
             </div>
         </div>
+        
     );
-};
-
-export default ModalReceitas;
+}

@@ -1,6 +1,58 @@
-.middleContainer {
+.middlePartWrapper {
+    width: 80%;
+    margin-top: 140px;
+    margin-left: 100px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#middlePartContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.middlePartLeft {
+    width: 49.8%;
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1.5px 1.5px 3px #C5DBC7;
+}
+
+.middlePartRight {
+    width: 49.9%;
+    background-color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1.5px 1.5px 3px #C5DBC7;
+}
+
+.middlePartTitle,
+.middlePartValue {
+    font-size: 1.6rem;
+}
+
+.middlePartValue {
+    color: #04660E;
+}
+
+/* .middleContainer {
     width: 85%;
-    position: absolute;
+    position: relative;
+    top: -160px;
     border-radius: 17px;
     display: flex;
     justify-content: space-evenly;
@@ -38,7 +90,7 @@
     justify-content: center;
     box-shadow: 1.5px 1.5px 3px #C5DBC7;
     border-radius: 17px; 
-}
+} */
 
 .piegraph {
     width: 150px;
