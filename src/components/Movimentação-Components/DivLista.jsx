@@ -27,14 +27,10 @@ function DivLista(){
                 <hr color="#8DB892" classname="LinhaMov"/>
             </div>
             <table className="Saldo">
-                {data.Movimentacao.map((dados)=>{
-                    return(
-                        <tr key={dados.id[6]} classname="TrSaldo">
-                            <td>{dados.descrição[6]}</td>
-                            <td>{dados.valor[6].toLocaleStrung("pt-BR", formato)}</td>
-                        </tr>
-                    );
-                })}
+                <tr className="TrSaldo">
+                    <td>Saldo</td>
+                    <td>R$ 1607,20</td>
+                </tr>
             </table>
                  
         </div>
