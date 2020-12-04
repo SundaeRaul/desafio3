@@ -1,12 +1,17 @@
 import React from "react";
 import "./Receber.css";
+import TabelaReceber from './TableReceber.jsx'
+
 
 function ContasAReceber(){
     return(
         <div className="ReceberGeral">
             <h3 className="TitleReceber"> Contas a receber</h3>
             <div className="BlocoBranco">
-                <div className="BlocoText">
+                <TabelaReceber/>
+
+
+                {/* <div className="BlocoText">
                     <ul className="ListNames">
                         <li>Estagio</li>
                         <li>FGTS</li>
@@ -22,7 +27,7 @@ function ContasAReceber(){
                         <li>R$150,00</li>
                         <li>R$250,00</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
     )
