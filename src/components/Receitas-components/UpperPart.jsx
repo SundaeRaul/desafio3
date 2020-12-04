@@ -4,7 +4,7 @@ import calendar from "../../icons/calendar-clear-outline.svg";
 import print from "../../icons/print-outline.svg";
 import circle from "../../icons/add-circle-outline.svg";
 
-function UpperPart({setShow}) {
+function UpperPart(props) {
   return (
     <div className="upperPartWrapper">
       <div className="upperPartHeader">
@@ -12,7 +12,7 @@ function UpperPart({setShow}) {
       </div>
       <div className="upperPartContent">
         <div className="upperPartBtnContainer1">
-          <button className="upperPartBtn1"  type="submit"><img className="upperPartIcon" src={circle} alt=""/><span> Nova transação</span></button>
+          <button onClick={props.showModal} className="upperPartBtn1"  type="submit"><img className="upperPartIcon" src={circle} alt=""/><span> Nova transação</span></button>
         </div>
         <div className="upperPartBtnContainer2">
           <button className="upperPartBtn2" type="submit"><img className="upperPartIcon" src={print} alt=""/><span> Baixar relatório de entrada</span></button>

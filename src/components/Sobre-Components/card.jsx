@@ -16,7 +16,7 @@ function Cards() {
         <div className="TeamCard">
           <img className="TeamImage" src={fabio} alt="foto"></img>
           <strong className="TeamName">Fabio Frasson</strong>
-          <div class="TeamSocialMedia">
+          <div className="TeamSocialMedia">
             <img className="TeamIcon" src={facebook} alt="facebook" />
             <img className="TeamIcon" src={twitter} alt="twitter" />
             <img className="TeamIcon" src={instagram} alt="instagram" />
@@ -27,7 +27,7 @@ function Cards() {
         <div className="TeamCard">
           <img className="TeamImage" src={raul} alt="foto"></img>
           <strong className="TeamName">Raul Rios</strong>
-          <div class="TeamSocialMedia">
+          <div className="TeamSocialMedia">
             <img className="TeamIcon" src={facebook} alt="facebook" />
             <img className="TeamIcon" src={twitter} alt="twitter" />
             <img className="TeamIcon" src={instagram} alt="instagram" />
@@ -38,7 +38,7 @@ function Cards() {
         <div className="TeamCard">
           <img className="TeamImage" src={fernando} alt="foto"></img>
           <strong className="TeamName">Fernando Fritzen</strong>
-          <div class="TeamSocialMedia">
+          <div className="TeamSocialMedia">
             <img className="TeamIcon" src={facebook} alt="facebook" />
             <img className="TeamIcon" src={twitter} alt="twitter" />
             <img className="TeamIcon" src={instagram} alt="instagram" />
@@ -49,7 +49,7 @@ function Cards() {
         <div className="TeamCard">
           <img className="TeamImage" src={luisa} alt="foto"></img>
           <strong className="TeamName">Luisa Ghellere</strong>
-          <div class="TeamSocialMedia">
+          <div className="TeamSocialMedia">
             <img className="TeamIcon" src={facebook} alt="facebook" />
             <img className="TeamIcon" src={twitter} alt="twitter" />
             <img className="TeamIcon" src={instagram} alt="instagram" />

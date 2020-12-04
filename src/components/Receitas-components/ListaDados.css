@@ -14,7 +14,13 @@
     border-radius: 5px;
 } 
 
-.Remuneracao {
+.label-receitas {
+    padding: 5px;
+    border-radius: 8px;
+    background-color: red;
+}
+
+.label-receitas.remuneracao {
     background-color: #C5DBC7;
 }
 
