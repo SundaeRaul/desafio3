@@ -17,32 +17,85 @@ body {
     height: 600px;
     margin: 0 auto;
     background: #FFF;
-    padding: 30px;
     position: relative;
+    top: 18%;
     border: 5px solid #C5DBC7;
-    border-radius: 25px;
+    border-radius: 10px;    
 }
 
 .modareceitas-header {
-    height: 30%;
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 15%;
+    font-size: 35px;
 }
 
 .modalreceitas-fechar {
     position: absolute;
-    top: 0;
-    right: 15px;
-    font-size: 35px;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
     cursor: pointer;
 }
 
-.modalreceitas-upperpart {
-
+.modalreceitas-row {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-.modalreceitas-middlepart {
-
+.modalreceitas-rowitem {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+    align-items: center;
 }
 
-.modalreceitas-bottompart {
+.modalreceitas-rowitem button {
+    font-size: 21px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 330px;
+    top: 475px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #4c704f;
+    cursor: pointer;
+    color: white;
+}
 
+.modalreceitas-rowitem button:hover {
+    background-color: #89b18d;
+}
+
+.modalreceitas-rowitem select {
+    height: auto;
+    outline-width: 0;
+    outline-color: none;
+    border-radius: 5px;
+    outline-width: 0;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.modalreceitas-row input {
+    height: auto;
+    border-radius: 5px;
+    outline-width: 0;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.modalreceitas-row label {
+    font-size: 20px;
+}
+
+.modalreceitas-rowitem label {
+    margin: 0 auto;
 }

@@ -24,10 +24,10 @@
     background-color: #C5DBC7;
 }
 
-.Investimentos {
-    
+.label-receitas.investimentos {
+    background-color: #9792E3;
 }
 
-.Outros {
-    
+.label-receitas.outros {
+    background-color: #FF784F;
 }

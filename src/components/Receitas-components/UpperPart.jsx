@@ -29,5 +29,3 @@ function UpperPart(props) {
 }
 
 export default UpperPart;
-
-/* onClick={() => setShow(true)} */

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Login.css';
-import BoxLogin from '../components/Login-components/BoxLogin'
+import BoxLogin from '../components/Login-Components/BoxLogin'
 
 function Login(){
     return(
