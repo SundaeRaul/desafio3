@@ -5,7 +5,7 @@ class BotaoTopo extends React.Component {
     render(){
         return(
             <div className="Topo">
-                <a href="#"> <i class="fas fa-arrow-up"></i> </a>
+                <a href="#"> <i className="fas fa-arrow-up"></i> </a>
             </div>
         );
     }

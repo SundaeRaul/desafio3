@@ -12,12 +12,12 @@ function Receitas () {
     const closeModalHandler = () => setShow(false);
 
     return (
-        <div className="total">                
+        <div className="total">             
             <Navegacao />
-            <UpperPart setShow={setShow}/>
+            <UpperPart showModal={() => setShow(true)}/>
             <MiddlePart />
             <BottomPart />
-            {/* <ModalReceitas show={show} closeModalHandler={closeModalHandler} /> */}
+            <ModalReceitas show={show} closeModalHandler={() => setShow(false)} />
         </div>
     );
 };

@@ -1,0 +1,35 @@
+{
+    "Receber" : [
+        {
+            "id": 0,
+            "descrição": "conta a receber",
+            "valor": 100.00,
+            "categoria": "Entrada",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 1,
+            "descrição": "conta a receber",
+            "valor": 100.00,
+            "categoria": "Entrada",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 2,
+            "descrição": "conta a receber",
+            "valor": 100.00,
+            "categoria": "Entrada",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 3,
+            "descrição": "conta a receber",
+            "valor": 100.00,
+            "categoria": "Entrada",
+            "data": "03/12/2020"
+        }
+    ]
+}

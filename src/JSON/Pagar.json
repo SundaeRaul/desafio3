@@ -1,0 +1,35 @@
+{
+    "Pagar" : [
+        {
+            "id": 0,
+            "descrição": "conta a pagar",
+            "valor": 100.00,
+            "categoria": "Saida",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 1,
+            "descrição": "conta a pagar",
+            "valor": 100.00,
+            "categoria": "Saida",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 2,
+            "descrição": "conta a pagar",
+            "valor": 100.00,
+            "categoria": "Saida",
+            "data": "03/12/2020"
+        },
+
+        {
+            "id": 3,
+            "descrição": "conta a pagar",
+            "valor": 100.00,
+            "categoria": "Saida",
+            "data": "03/12/2020"
+        }
+    ]
+}

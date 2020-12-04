@@ -1,0 +1,11 @@
+.TrTableReceber{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.tabelaReceber{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}

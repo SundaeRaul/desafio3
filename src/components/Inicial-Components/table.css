@@ -1,0 +1,11 @@
+.TrTablePagar{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.tabelaPagar{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}

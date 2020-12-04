@@ -3,12 +3,12 @@ import './ModalReceitas.css'
 
 export const ModalReceitas = ({ show, closeModalHandler }) => {
     return (
-        <div className="modalreceitas">
-            <div className="modalreceitas-wrapper"
-            style={{
-                opacity: show ? '1' : '0'
-            }}
-            >
+        <div className="modalreceitas"
+        style={{
+                    display: show ? 'block' : 'none'
+                }}
+        >
+            <div className="modalreceitas-wrapper">
                 <div className="modareceitas-header">
                     <p>Recebimentos</p>
                     <div className="modalreceitas-fechar"

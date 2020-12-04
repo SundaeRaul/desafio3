@@ -1,12 +1,17 @@
 import React from "react";
 import "./Pagar.css";
+import TabelaPagar from './table.jsx'
+
 
 function ContasAPagar(){
     return(
         <div className="PagarGeral">
             <h3 className="TitlePagar"> Contas a pagar</h3>
             <div className="BlocoBranco">
-                <div className="BlocoText">
+                <TabelaPagar/>
+
+
+                {/* <div className="BlocoText">
                     <ul className="ListNames">
                         <li>Netflix</li>
                         <li>Prime</li>
@@ -22,10 +27,10 @@ function ContasAPagar(){
                         <li>R$750,00</li>
                         <li>R$250,00</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
         </div>
-    )
+    );
 }
 
 export default ContasAPagar;

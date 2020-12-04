@@ -1,6 +1,7 @@
 import React from "react";
 import "./ListaDados.css";
 import data from "../../JSON/receitas.json";
+import LabelReceitas from "./LabelReceitas";
 
 function ListaDados() {
   const formato = {
@@ -24,7 +25,7 @@ function ListaDados() {
               <td>{income.descricao}</td>
               <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
               
-              <td className={Categoria == "Remuneração" ? 'Remuneracao' : (Categoria == "Investimentos" ? 'Investimentos' : (Categoria == "Outros" ? 'Outros' : ''))} >{income.categoria}</td>
+              <td><LabelReceitas categoria={income.categoria}/></td>
 
               <td>{income.data}</td>
             </tr>
