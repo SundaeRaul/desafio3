@@ -1,0 +1,157 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 25px;
+    top: 15px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #000;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #04660E;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #76797a;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #fff;
+    margin: 0 auto;
+    padding: 2.5em 3em 0;
+    font-size: 15px;
+    text-align: start;
+    align-items: center;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: black;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }  
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+.menuReceitas {
+    font-weight: 500;
+}
+
+.menuReceitas a {
+    text-decoration: none;
+    color: black;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.menuReceitas a:hover {
+    text-decoration: none;
+    color: #373a47;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.menuReceitas-listaItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profilePic {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    outline-width: 0;
+    outline-style: none;
+}
+
+.dadosProfilePic {
+    margin: 15px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    outline-style: none;
+    outline-width: 0;
+}
+
+.menuItemContainer, 
+.menuItemContainerHeader, 
+.menuItemContainerContent {
+    outline-style: none;
+    outline-width: 0;
+}
+
+.menuItemContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menuItemContainerHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuItemContainerContent {
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.menuContainerItem {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.containerIcon {
+    margin: 0 5px; 
+    align-items: center;  
+}
+
+.menu-item {
+    margin: 0 5px; 
+}

@@ -5,8 +5,7 @@
 
 .upperPartHeader {
     width: 100%;
-    display: flex;
-    position: relative;
+    padding-top: 90px;
     top: 100px;
 }
 
@@ -19,15 +18,14 @@
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: space-around;
-    position: relative;
+    justify-content: space-around;  
     top: 130px;
     text-align: center;
     background-color: #fff;
     height: 90px;
     border-radius: 20px;
     box-shadow: 1.5px 1.5px 3px #C5DBC7;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .upperPartBtn1,
