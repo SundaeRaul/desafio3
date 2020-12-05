@@ -7,12 +7,13 @@ import MiddleWrapper from './MiddleWrapper';
 import DespesasMensais from './DespesasMensais';
 
 
-function Wrapper({ setShow }) {
+function Wrapper({ setShow }, {despesas}) {
   return(
       <div id="wrapper">
         <ButtonContainer setShow={setShow}/>
         <MiddleWrapper />
-        <DespesasMensais />
+        <DespesasMensais despesas={despesas} />
+
 
       </div>
   );

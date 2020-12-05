@@ -9,6 +9,7 @@ import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Movimentacao from './pages/Movimentacao';
 import Page404 from './pages/Page404';
+import FormTeste from './pages/FormTeste';
 
 
 import { Switch, Route } from 'react-router-dom';
@@ -25,6 +26,7 @@ function Routes(){
             <Route path ="/Login" component={Login}/>
             <Route path ="/Cadastro" component={Cadastro}/>
             <Route path ="/Movimentacao" component={Movimentacao}/>
+            <Route path ="/formteste" component={FormTeste}/>
             <Route component={Page404} />
 
         </Switch>

@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
+import listDespesas from '../JSON/despesas.json';
 
-import './Modal.css';
-
-// import './jsjs';
-
-export const Modal = ({ show, close },{despesas, setDespesas}) => {
-
-
+function FormTeste(){
 
     const [preco, setPreco] = useState("");
     const [categoria, setCategoria] = useState("");
     const [data, setData] = useState("");
     const [descricao, setDescricao] = useState("");
+    const [despesas, setDespesas] = useState(listDespesas);
 
 
     function handleSubmit(event) {
@@ -46,19 +42,9 @@ export const Modal = ({ show, close },{despesas, setDespesas}) => {
     }
 
 
-
-
-
-    return (
-        <div className="modal"
-        style={{
-            display: show ? 'flex' : 'none'
-        }}>
-            <div id="modalContainer">
-                <div id="fechar" onClick={close}>+</div>
-                <div id="headerModal"><h3>Despesas</h3></div>
-
-                <form onSubmit={handleSubmit}>
+    return(
+        <>
+            <form onSubmit={handleSubmit}>
                 
                 <div className="input-despesas">
                     <label className="input-label">Preço</label>
@@ -89,10 +75,24 @@ export const Modal = ({ show, close },{despesas, setDespesas}) => {
 
 
             </form>
-            </div>
-        </div>  
-    )
-  
-};
 
-export default Modal;
+            <table>
+            { despesas.map(post => {
+                return(
+                <>
+                    <tr>
+                        <td className="descricao">{ post.descricao }</td>
+                        <td className="valor">{ parseFloat(post.valor).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</td>
+                        <td className="categoria">{ post.categoria }</td>
+                        <td className="data">{ post.data}</td>
+                    </tr>
+                </>
+                )
+            }) }
+            
+      </table>
+        </>
+    );
+}
+
+export default FormTeste;

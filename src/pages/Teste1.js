@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 
-import listDespesas from '../JSON/despesas.json';
-
-
 
 import '../styles/despesas.css';
 
@@ -16,17 +13,12 @@ function Despesas(){
 
     const close = () => setShow(false);
 
-    const [despesas, setDespesas] = useState(listDespesas);
-
-
     return(
         <div id="despesas">
             <Header />
-            <Wrapper setShow={setShow} despesas={despesas}/>
+            <Wrapper setShow={setShow}/>
 
-            <Modal show={show} close={close} despesas={despesas} setDespesas={setDespesas}/>
-
-            
+            <Modal show={show} close={close} />
         </div>
     );
 }

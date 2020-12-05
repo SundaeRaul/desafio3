@@ -4,7 +4,7 @@ import './DespesasMensais.css'
 
 import FormataDespesas from './FormataDespesas';
 
-function DespesasMensais() {
+function DespesasMensais({despesas}) {
   return(
       <div id="DespesasMensais">
           <div id="header">
@@ -17,7 +17,7 @@ function DespesasMensais() {
 
           <div id="despesa">
 
-            <FormataDespesas />
+            <FormataDespesas despesas={despesas} />
             
           </div>
       </div>
