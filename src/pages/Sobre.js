@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/index-components/Navbar'
 import Header from '../components/Header';
 import '../styles/Sobre-estilo.css'
 import Cards from '../components/Sobre-Components/card';

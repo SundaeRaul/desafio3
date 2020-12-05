@@ -1,22 +1,24 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom'
-// import './Navbar.css'
-// import Logo from '../../../src/images/logo2.png'
+import React from 'react';
+import './Navbar.css';
+import Logo from '../../images/logo2.png'
+import { Link } from 'react-router-dom';
 
-// class NavBar extends React.Component{
-//     render(){
-//         return(
-//             <div className="navbar">         
-//                 <ul>
-//                     <li><Link to="/"><img src={Logo} alt="Logo Financ"/></Link></li>
-//                     <li><Link to="/Sobre">{this.props.btn1}</Link></li>
-//                     <li><Link to="/Contato">{this.props.btn2}</Link></li>
-//                     <li className="borda"><Link to="/Login">{this.props.btn3}</Link></li>
-//                     <li className="borda"><Link to="/Cadastro">{this.props.btn4}</Link></li>
-//                 </ul>                
-//             </div>
-//         );
-//     }
-// }
+function Navbar() {
+    return(
+        <div className="navbarWrapper">
+            <div className="logoWrapper">
+                <Link to="/"><img src={Logo} alt=""/></Link>                
+            </div>
+            <div className="buttonWrapper">
+                <ul className="listWrapper">
+                    <li><Link className="listItem" to="/Sobre">Sobre</Link></li>
+                    <li><Link className="listItem" to="/Contato">Contato</Link></li>
+                    <li><Link className="listItem" to="/Login">Login</Link></li>
+                    <li><Link className="listItem" to="/Cadastro">Cadastro</Link></li>
+                </ul>
+            </div>
+        </div>
+    );
+}
 
-// export default NavBar;
+export default Navbar;

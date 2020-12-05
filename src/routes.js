@@ -4,11 +4,11 @@ import Home from './pages/Home';
 import Sobre from './pages/Sobre';
 import Despesas from './pages/despesas';
 import Receitas from './pages/Receitas';
-import NotFound from './pages/NotFound';
 import Inicial from '../src/pages/Inicial';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Movimentacao from './pages/Movimentacao';
+import Page404 from './pages/Page404';
 
 
 import { Switch, Route } from 'react-router-dom';
@@ -25,7 +25,7 @@ function Routes(){
             <Route path ="/Login" component={Login}/>
             <Route path ="/Cadastro" component={Cadastro}/>
             <Route path ="/Movimentacao" component={Movimentacao}/>
-            <Route component={NotFound} />
+            <Route component={Page404} />
 
         </Switch>
     );

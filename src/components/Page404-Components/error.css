@@ -1,0 +1,30 @@
+#geral {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px;
+  background: #c5dbc7;
+}
+
+.errorWrapper {
+  width: 15%;
+}
+
+.textoErro {
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  top: 350px;
+  left: 50px;
+  color: #04660e;
+}
+
+.erroTexto {
+  font-size: 100px;
+  position: absolute;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  top: 225px;
+  left: 102px;
+  color: #04660e;
+}
