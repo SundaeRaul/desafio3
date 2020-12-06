@@ -5,8 +5,8 @@ import {AiOutlinePlusCircle} from "react-icons/ai";
 import data from '../../JSON/Movimentação.json';
 
 function DivLista(){
-    const [entradas, setEntradas] = useState(0)
-    const [saidas, setSaidas] = useState(0)
+    var entradas = 0;
+    var saidas = 0;
     const formato={
         minimunFractionDigits: 2,
         style: "currency",
@@ -15,11 +15,11 @@ function DivLista(){
 
     function GeraSaldo(){
         data.Movimentacao.map((movi) =>
-            movi.categoria == "Entrada"
-            ? setEntradas(10)
-            : console.log("saida")
+            movi.categoria === "Entrada"
+            ? entradas += movi.valor
+            : saidas += movi.valor
         )
-    }
+    };
 
     GeraSaldo();
 
