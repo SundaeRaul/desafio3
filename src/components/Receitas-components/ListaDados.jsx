@@ -7,30 +7,34 @@ function ListaDados() {
   const formato = {
     minimumFractionDigits: 2,
     style: "currency",
-    currency: "BRL"
+    currency: "BRL",
   };
-  const Categoria = data.receitas.categoria
+  const Categoria = data.receitas.categoria;
   return (
     <div>
       <table className="recTabela">
-        <tr>
-          <th>Descrição</th>
-          <th>Valor</th>
-          <th>Categoria</th>
-          <th>Data</th>
-        </tr>
-        {data.receitas.map((income) => {
-          return (
-            <tr key={income.id}>
-              <td>{income.descricao}</td>
-              <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
-              
-              <td><LabelReceitas categoria={income.categoria}/></td>
+        <thead>
+          <tr>
+            <th>Descrição</th>
+            <th>Valor</th>
+            <th>Categoria</th>
+            <th>Data</th>
+          </tr>
+          {data.receitas.map((income) => {
+            return (
+              <tr key={income.id}>
+                <td>{income.descricao}</td>
+                <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
 
-              <td>{income.data}</td>
-            </tr>
-          );
-        })}
+                <td>
+                  <LabelReceitas categoria={income.categoria} />
+                </td>
+
+                <td>{income.data}</td>
+              </tr>
+            );
+          })}
+        </thead>
       </table>
     </div>
   );

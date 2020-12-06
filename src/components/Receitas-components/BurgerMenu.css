@@ -134,7 +134,7 @@
 .menuItemContainerContent {
     width: 100%;
     height: 80%;
-    font-size: 20px;
+    font-size: 19px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -144,7 +144,14 @@
 .menuContainerItem {
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
+    justify-content: center;
+}
+
+.menuContainerItem.textoSoonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
 }
 
 .containerIcon {
@@ -154,4 +161,39 @@
 
 .menu-item {
     margin: 0 5px; 
+}
+
+.textoSoonWrapper {
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  width: auto;
+  color: red;
+  font-weight: 700;
+  align-items: center;
+  margin-left: 4px;
+  animation: pulse 2s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: #FF8B01;
+  }
+  20% {
+    color: #FA6F01;
+  }
+  40% {
+    color: #F55301;
+  }
+  60% {
+    color: #F03801;
+  }
+  80% {
+    color: #EB1C01;
+  }
+  100% {
+    color: #E60001;
+  }
 }

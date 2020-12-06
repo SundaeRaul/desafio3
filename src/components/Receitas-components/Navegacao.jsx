@@ -67,7 +67,11 @@ class Navegacao extends React.Component {
                   <VscAccount className="containerIcon" />
                   Contas
                 </a>
+                <div className="menuContainerItem textoSoonWrapper">
+                  <span className="textoSoon">Breve!</span>
+                </div>
               </div>
+              
               <div className="menuContainerItem">
                 <a
                   id="botao configuracoes"
@@ -78,7 +82,11 @@ class Navegacao extends React.Component {
                   <VscGear className="containerIcon" />
                   Configurações
                 </a>
+                <div className="menuContainerItem textoSoonWrapper">
+                  <span className="textoSoon">Breve!</span>
+                </div>
               </div>
+              
               <div className="menuContainerItem">
                 <a id="botao sair" className="menu-item" href="/Login">
                   <VscSignOut className="containerIcon" />

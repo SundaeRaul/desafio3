@@ -12,6 +12,7 @@
 .logo {    
     height: 35px !important;
     width: auto !important;
-    position: sticky;
-    left: 6%;
+    position: fixed;
+    left: 90px;
 }
+

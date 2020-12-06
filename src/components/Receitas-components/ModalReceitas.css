@@ -10,6 +10,7 @@ body {
     top: 0;
     align-items: center;
     overflow: hidden;
+    transition: width 2s linear 1s;
 }
 
 .modalreceitas-wrapper {
@@ -20,7 +21,8 @@ body {
     position: relative;
     top: 18%;
     border: 5px solid #C5DBC7;
-    border-radius: 10px;    
+    border-radius: 10px;  
+    transition: width 5s linear 5s;
 }
 
 .modareceitas-header {
