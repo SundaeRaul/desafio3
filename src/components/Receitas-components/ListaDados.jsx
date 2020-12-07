@@ -15,15 +15,16 @@ function ListaDados() {
       <table className="recTabela">
         <thead>
           <tr>
-            <th>Descrição</th>
+            <th>Título</th>
             <th>Valor</th>
             <th>Categoria</th>
             <th>Data</th>
+            <th>Descrição</th>
           </tr>
           {data.receitas.map((income) => {
             return (
-              <tr key={income.id}>
-                <td>{income.descricao}</td>
+              <tr key={income.nm}>
+                <td>{income.titulo}</td>
                 <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
 
                 <td>
@@ -31,6 +32,7 @@ function ListaDados() {
                 </td>
 
                 <td>{income.data}</td>
+                <td>{income.descricao}</td>
               </tr>
             );
           })}
