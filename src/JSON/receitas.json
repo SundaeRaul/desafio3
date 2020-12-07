@@ -1,33 +1,36 @@
 {
-    "receitas": [
-        {
-            "id": 0,
-            "descricao": "Salário",
-            "valor": 1300.00,
-            "categoria": "Remuneração",
-            "data": "06/11/20"
-        },
-        {
-            "id": 1,
-            "descricao": "Comissões",
-            "valor": 250.00,
-            "categoria": "Remuneração",
-            "data": "10/11/20"
-        },
-        {
-            "id": 2,
-            "descricao": "Empréstimo",
-            "valor": 150.00,
-            "categoria": "Outros",
-            "data": "17/11/20"
-        },
-        {
-            "id": 3,
-            "descricao": "Rendimentos Tesouro Selic",
-            "valor": 75.00,
-            "categoria": "Investimentos",
-            "data": "20/11/20"
-        }
-    ]
-    
+  "receitas": [
+    {
+      "nm": 0,
+      "titulo": "Salário",
+      "valor": 1300.0,
+      "categoria": "Remuneração",
+      "data": "06/11/20",
+      "descricao": "Salário novembro"
+    },
+    {
+      "nm": 1,
+      "titulo": "Comissões",
+      "valor": 250.0,
+      "categoria": "Remuneração",
+      "data": "10/11/20",
+      "descricao": "Comissão novembro"
+    },
+    {
+      "nm": 2,
+      "titulo": "Empréstimo",
+      "valor": 150.0,
+      "categoria": "Outros",
+      "data": "17/11/20",
+      "descricao": "Devolução empréstimo"
+    },
+    {
+      "nm": 3,
+      "titulo": "Rendimentos Tesouro Selic",
+      "valor": 75.0,
+      "categoria": "Investimentos",
+      "data": "20/11/20",
+      "descricao": "Rendimentos"
+    }
+  ]
 }
