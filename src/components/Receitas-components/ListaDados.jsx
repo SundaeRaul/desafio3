@@ -9,7 +9,6 @@ function ListaDados() {
     style: "currency",
     currency: "BRL",
   };
-  const Categoria = data.receitas.categoria;
   return (
     <div>
       <table className="recTabela">

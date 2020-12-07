@@ -173,8 +173,7 @@
   font-weight: 700;
   align-items: center;
   margin-left: 4px;
-  animation: pulse 2s ease-out;
-  animation-iteration-count: infinite;
+  animation: pulse 2s ease-out infinite;
 }
 
 @keyframes pulse {
