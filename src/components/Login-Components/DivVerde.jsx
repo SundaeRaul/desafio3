@@ -1,5 +1,6 @@
 import React from 'react';
 import './DivVerde.css';
+import { Link } from 'react-router-dom';
 
 function DivVerde(){
     return(
@@ -9,7 +10,7 @@ function DivVerde(){
                 <p>Insira seus dados e começe a controlar suas finanças!</p>
             </div>
                 
-            <button type="submit" className="buttonCadastro">Cadastre-se!</button>
+            <button type="submit" className="buttonCadastro"><Link to ="/Cadastro" style={{ textDecoration: 'none', color: 'unset'}}>Cadastre-se!</Link></button>
         </div>
     );
 }

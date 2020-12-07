@@ -1,5 +1,6 @@
 import React from 'react';
 import './DivVerdeCadastro.css';
+import { Link } from 'react-router-dom';
 
 function DivVerdeCadastro(){
     return(
@@ -8,7 +9,7 @@ function DivVerdeCadastro(){
             <div className="TextCadastro">
                 <p>Ja possui conta? Faça seu login!</p>
             </div>
-            <button type="submit" className="LogarCadastro">Logar</button>
+            <button type="submit" className="LogarCadastro"><Link to="/Login" style={{ textDecoration: 'none', color: 'unset'}}>Logar</Link></button>
          </div>
     );
 }

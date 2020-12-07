@@ -1,5 +1,6 @@
 import React from 'react';
 import './DivBrancaCadastro.css';
+import { Link } from 'react-router-dom';
 
 function DivBrancaCadastro(){
     return(
@@ -13,7 +14,7 @@ function DivBrancaCadastro(){
                 <input type="passowrd" placeholder="Repetir Senha"/>
              </form>
 
-             <button type="submit" classname="Cadastrarse">Cadastrar-se</button>
+             <button type="submit" classname="Cadastrarse"><Link style={{ textDecoration: 'none', color: 'unset'}} to ="/Inicial">Cadastrar-se</Link></button>
         </div>
     );
 }
