@@ -1,0 +1,18 @@
+{
+    "categorias":
+    [
+        {
+            "key": "Remuneração",
+            "label": "Remuneração"
+        },
+        {
+            "key": "Investimentos",
+            "label": "Investimentos"
+        },
+        {
+            "key": "Outros",
+            "label": "Outros"
+        }
+        
+    ]
+}

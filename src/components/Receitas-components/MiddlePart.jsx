@@ -1,4 +1,5 @@
 import React from "react";
+import TotalMensal from '../Receitas-components/TotalMensal';
 import "../Receitas-components/MiddlePart.css";
 import { PieChart } from "react-minimal-pie-chart";
 

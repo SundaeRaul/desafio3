@@ -2,7 +2,15 @@
     padding: 5px;
     line-height: 30px;
     text-align: center;
-    margin: 0 auto;
+    width: 80%;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    box-shadow: 1.5px 1.5px 3px #C5DBC7;
+    margin-top: 10px;
 }
 
 .recTabela th {

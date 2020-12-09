@@ -1,9 +1,8 @@
 import React from "react";
-import "./ListaDados.css";
-import data from "../../JSON/receitas.json";
+import './ListaDados.css';
 import LabelReceitas from "./LabelReceitas";
 
-function ListaDados() {
+function ListaDados({receitas}) {
   const formato = {
     minimumFractionDigits: 2,
     style: "currency",
@@ -20,11 +19,11 @@ function ListaDados() {
             <th>Data</th>
             <th>Descrição</th>
           </tr>
-          {data.receitas.map((income) => {
+          {receitas.map((income) => {
             return (
               <tr key={income.nm}>
                 <td>{income.titulo}</td>
-                <td>{income.valor.toLocaleString("pt-BR", formato)}</td>
+                <td>{income.valor?.toLocaleString("pt-BR", formato)}</td>
 
                 <td>
                   <LabelReceitas categoria={income.categoria} />
@@ -35,6 +34,9 @@ function ListaDados() {
               </tr>
             );
           })}
+          {!receitas.length && <tr>
+            <td colSpan="5">Sem movimentações no momento</td>
+          </tr>}
         </thead>
       </table>
     </div>

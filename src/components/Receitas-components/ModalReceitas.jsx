@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./ModalReceitas.css";
 import dataReceitas from "../../JSON/receitas.json";
+import dataCategorias from "../../JSON/categorias.json";
 
 export const ModalReceitas = ({
   id = "modalReceitas",
@@ -15,6 +16,7 @@ export const ModalReceitas = ({
   const [nm, setNm] = useState(receitas.length + 1);
   const [titulo, setTitulo] = useState("");
   const [valor, setValor] = useState("");
+  const [categoria, setCategoria] = useState("");
   const [data, setData] = useState("");
   const [descricao, setDescricao] = useState("");
 
@@ -23,19 +25,17 @@ export const ModalReceitas = ({
       nm: nm,
       titulo: titulo,
       valor: valor,
-      // categoria: categoria,
+      categoria: categoria,
       data: data,
       descricao: descricao
     };
 
+    closeModalHandler(novaReceita);
+
     setReceitas([...receitas, novaReceita]);
-    setNm(nm + 1);
-    setTitulo("");
-    setValor("");
-    setDescricao("");
-    setData("");
 
     event.preventDefault();
+
   }
 
   const handleChangeTitulo = (e) => {
@@ -48,6 +48,11 @@ export const ModalReceitas = ({
     console.log(e.target.value);
   };
 
+  const handleChangeCategoria = (e) => {
+    setCategoria(e.target.value);
+    console.log(e.target.value);
+  };
+
   const handleChangeData = (e) => {
     setData(e.target.value);
     console.log(e.target.value);
@@ -57,6 +62,8 @@ export const ModalReceitas = ({
     setDescricao(e.target.value);
     console.log(e.target.value);
   };
+
+  
 
   return (
     <div
@@ -104,11 +111,11 @@ export const ModalReceitas = ({
           <div className="modalreceitas-row">
             <div className="modalreceitas-rowitem">
               <label htmlFor="">Categoria:</label>
-              <select required="required">
-                <option>Selecionar</option>
-                <option value="1">Remuneração</option>
-                <option value="2">Investimentos</option>
-                <option value="3">Outros</option>
+              <select onChange={handleChangeCategoria} required="required">
+                {/* <option>Selecionar</option> */}
+                {dataCategorias.categorias.map((categoria) => {
+                  return <option key={categoria.key} value={categoria.label["Remuneração"]}>{categoria.label}</option>
+                })}
               </select>
             </div>
             <div className="modalreceitas-rowitem">
