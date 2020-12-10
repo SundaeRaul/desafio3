@@ -3,7 +3,7 @@
     {
       "nm": 0,
       "titulo": "Salário",
-      "valor": 1300.0,
+      "valor": 1300.00,
       "categoria": "Remuneração",
       "data": "06/11/20",
       "descricao": "Salário novembro"

@@ -10,7 +10,7 @@ class MiddlePart extends React.Component {
         <div id="middlePartContent">
           <div className="middlePartLeft">
             <span className="middlePartTitle"><strong>Média mensal</strong></span>
-            <span className="middlePartValue"><strong>R$ 1.775,00</strong></span>
+            <span className="middlePartValue"><strong><TotalMensal /></strong></span>
           </div>
           <div className="middlePartRight">
             <PieChart

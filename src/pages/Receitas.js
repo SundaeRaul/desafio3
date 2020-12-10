@@ -30,7 +30,7 @@ function Receitas() {
     <div className="total">
       <Navegacao />
       <UpperPart showModal={() => setShow(true)} />
-      <MiddlePart />
+      <MiddlePart receitas={receitas} />
       <div className="btm-part">
         <ListaDados receitas={receitas} />
       </div>
