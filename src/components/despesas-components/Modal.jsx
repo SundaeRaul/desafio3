@@ -4,11 +4,11 @@ import './Modal.css';
 
 // import './jsjs';
 
-export const Modal = ({ show, close },{despesas, setDespesas}) => {
+export const Modal = ({ show, close, addDespesa}) => {
 
 
-
-    const [preco, setPreco] = useState("");
+    const [titulo, setTitulo] = useState("");
+    const [valor, setValor] = useState("");
     const [categoria, setCategoria] = useState("");
     const [data, setData] = useState("");
     const [descricao, setDescricao] = useState("");
@@ -16,20 +16,26 @@ export const Modal = ({ show, close },{despesas, setDespesas}) => {
 
     function handleSubmit(event) {
         const novaDespesa = {
-            preco: preco,
+            titulo: titulo,
+            valor: valor,
             categoria: categoria,
             data: data,
             descricao: descricao,
         }
 
 
-        setDespesas([...despesas, novaDespesa]);
+        addDespesa(novaDespesa);
 
         event.preventDefault();
     }
 
-    const handleChangePreco = (e) => {
-        setPreco(e.target.value);
+    const handleChangeTitulo = (e) => {
+        setTitulo(e.target.value);
+        console.log(e.target.value);
+    }
+
+    const handleChangeValor = (e) => {
+        setValor(e.target.value);
         console.log(e.target.value);
     }
     const handleChangeCategoria = (e) => {
@@ -59,10 +65,15 @@ export const Modal = ({ show, close },{despesas, setDespesas}) => {
                 <div id="headerModal"><h3>Despesas</h3></div>
 
                 <form onSubmit={handleSubmit}>
+
+                <div className="input-despesas">
+                    <label className="input-label">Titulo</label>
+                    <input name="titulo" onChange={handleChangeTitulo} value={titulo} className="form-despesas" type="text" placeholder="Titulo" required="required"/><br/>
+                </div>
                 
                 <div className="input-despesas">
                     <label className="input-label">Preço</label>
-                    <input name="preco" onChange={handleChangePreco} value={preco} className="form-despesas" type="number" placeholder="Preço" required="required"/><br/>
+                    <input name="preco" onChange={handleChangeValor} value={valor} className="form-despesas" type="number" placeholder="Preço" required="required"/><br/>
                 </div>
 
                 <div className="input-despesas">

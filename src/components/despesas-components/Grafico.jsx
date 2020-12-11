@@ -27,6 +27,11 @@ function Grafico() {
         title:{
             display: true,
             text: 'Doughnut Chart'
+        },
+        legend:{
+            position: 'left',
+            align: 'left',
+            fullWidth: false
         }
     }
 

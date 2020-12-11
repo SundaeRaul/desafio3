@@ -8,10 +8,12 @@ function DespesasMensais({despesas}) {
   return(
       <div id="DespesasMensais">
           <div id="header">
-              <div><strong>Descrição</strong></div>
+              
+              <div><strong>Titulo</strong></div>
               <div><strong>Valor</strong></div>
               <div><strong>Categoria</strong></div>
               <div><strong>Data</strong></div>
+              <div><strong>Descrição</strong></div>
           </div>
           <hr id="header-despesas"></hr>
 
