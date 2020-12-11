@@ -16,7 +16,7 @@ export const ModalReceitas = ({
   const [nm, setNm] = useState(receitas.length + 1);
   const [titulo, setTitulo] = useState("");
   const [valor, setValor] = useState("");
-  const [categoria, setCategoria] = useState("");
+  const [categoria, setCategoria] = useState("Remuneração");
   const [data, setData] = useState("");
   const [descricao, setDescricao] = useState("");
 
@@ -31,8 +31,15 @@ export const ModalReceitas = ({
     };
 
     closeModalHandler(novaReceita);
+    console.log(novaReceita)
 
-    setReceitas([...receitas, novaReceita]);
+    // setReceitas([...receitas, novaReceita]);
+
+    setTitulo("")
+    setValor("")
+    setData("")
+    setDescricao("")
+    /* resetar todos os outros campos*/
 
     event.preventDefault();
 
@@ -50,7 +57,7 @@ export const ModalReceitas = ({
 
   const handleChangeCategoria = (e) => {
     setCategoria(e.target.value);
-    console.log(e.target.value);
+    console.log("categoria", e.target.value);
   };
 
   const handleChangeData = (e) => {
@@ -111,10 +118,12 @@ export const ModalReceitas = ({
           <div className="modalreceitas-row">
             <div className="modalreceitas-rowitem">
               <label htmlFor="">Categoria:</label>
-              <select onChange={handleChangeCategoria} required="required">
+              <select onChange={handleChangeCategoria} required="required" defaultValue="Remuneração">
                 {/* <option>Selecionar</option> */}
                 {dataCategorias.categorias.map((categoria) => {
-                  return <option key={categoria.key} value={categoria.label["Remuneração"]}>{categoria.label}</option>
+                  return (
+                    <option key={categoria.key} value={categoria.key}>{categoria.label}</option>
+                    )
                 })}
               </select>
             </div>
