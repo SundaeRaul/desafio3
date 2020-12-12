@@ -3,10 +3,19 @@ import React from 'react';
 import './Grafico.css';
 
 import { Doughnut } from 'react-chartjs-2';
-function Grafico() {
+function Grafico({despesas}) {
+
+    const categorias = [];
+
+    despesas.map(cat =>{
+        return(
+            categorias.push(cat.categoria)
+        )
+    })
 
     const data = {
-        labels: ['Energia', 'Educação', 'Internet', 'Outros'],
+        // labels: ['Energia', 'Educação', 'Internet', 'Outros'],
+        labels: categorias,
         datasets: [
             {
                 label: 'Sales for 2020 (M)',
@@ -25,8 +34,7 @@ function Grafico() {
 
     const options = {
         title:{
-            display: true,
-            text: 'Doughnut Chart'
+            display: false
         },
         legend:{
             position: 'left',

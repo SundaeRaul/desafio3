@@ -4,7 +4,7 @@ import './Modal.css';
 
 // import './jsjs';
 
-export const Modal = ({ show, close, addDespesa}) => {
+export const Modal = ({ show, close, addDespesa }) => {
 
 
     const [titulo, setTitulo] = useState("");

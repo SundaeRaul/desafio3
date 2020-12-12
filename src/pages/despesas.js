@@ -30,11 +30,11 @@ function Despesas(){
             <Header />
             <div id="wrapper">
                 <ButtonContainer setShow={setShow}/>
-                <MiddleWrapper />
+                <MiddleWrapper despesas={despesas}/>
                 <DespesasMensais despesas={despesas} />
             </div>
 
-            <Modal show={show} close={close} addDespesa={addDespesa}/>
+            <Modal show={show} close={close} addDespesa={addDespesa} />
 
             
         </div>

@@ -18,3 +18,7 @@ div#despesas{
     margin: 20px auto;
     padding: 0 15px;
 }
+
+.despesas{
+    background-color: red !important;
+}

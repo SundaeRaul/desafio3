@@ -40,7 +40,7 @@
     flex-flow: nowrap;
 }
 
-label{
+label#mostrarSenha{
     margin-left: 40px;
 }
 
