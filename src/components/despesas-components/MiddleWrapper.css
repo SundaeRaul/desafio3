@@ -7,22 +7,25 @@
 }
 
 #media{
-    width: 25%;
+    width: 45%;
     height: 100%;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
     background: #FFF;
     border-radius: 20px;
     text-align: center;
-    padding: 25px 10px
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #media h2{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     font-size: clamp(15px, 30px, 35px);
 }
 
 #chart-container{
-    width: 70%;
+    width: 53%;
     height: 100%;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.4);
     border-radius: 20px;

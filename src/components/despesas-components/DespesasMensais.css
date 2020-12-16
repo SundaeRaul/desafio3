@@ -15,22 +15,16 @@ div#header{
 }
 
 #DespesasMensais div#header div{
-    width: 20%;
-}
-
-#DespesasMensais div#header div:nth-child(2){
+    width: 18%;
     text-align: center;
 }
 
-#DespesasMensais div#header div:nth-child(3){
-    text-align: center;
-}
-
-#DespesasMensais div#header div:first-child{
-    width: 40%;
+#DespesasMensais div#header div:nth-child(1){
+    text-align: left;
 }
 
 #DespesasMensais div#header div:last-child{
+    width: 28%;
     text-align: right;
     padding-right: 20px;
 }

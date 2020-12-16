@@ -3,12 +3,13 @@ import React, { useState } from 'react';
 import listDespesas from '../JSON/despesas.json';
 
 
-
 import '../styles/despesas.css';
 
 import Header from '../components/despesas-components/Header';
-import Wrapper from '../components/despesas-components/Wrapper';
 import Modal from '../components/despesas-components/Modal';
+import ButtonContainer from '../components/despesas-components/ButtonContainer';
+import MiddleWrapper from '../components/despesas-components/MiddleWrapper';
+import DespesasMensais from '../components/despesas-components/DespesasMensais';
 
 function Despesas(){
 
@@ -18,13 +19,22 @@ function Despesas(){
 
     const [despesas, setDespesas] = useState(listDespesas);
 
+    const addDespesa = (data) => {
+        setDespesas([...despesas, data])
+        setShow(false);
+    };
+
 
     return(
         <div id="despesas">
             <Header />
-            <Wrapper setShow={setShow} despesas={despesas}/>
+            <div id="wrapper">
+                <ButtonContainer setShow={setShow}/>
+                <MiddleWrapper despesas={despesas}/>
+                <DespesasMensais despesas={despesas} />
+            </div>
 
-            <Modal show={show} close={close} despesas={despesas} setDespesas={setDespesas}/>
+            <Modal show={show} close={close} addDespesa={addDespesa} />
 
             
         </div>

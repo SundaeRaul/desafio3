@@ -13,7 +13,7 @@ function DivBranca(){
             </form>
             <div className="CheckboxLogin">      
                 <input type="checkbox" id="MostrarSenha" name="vehicle1" value="Bike"/>
-                <label for="vehicle1">Mostrar Senha</label>
+                <label for="vehicle1" id="mostrarSenha">Mostrar Senha</label>
             </div>   
             <button type="submit" className="buttonLogar"><Link style={{ textDecoration: 'none', color: 'unset'}} to="/Inicial">Logar</Link></button>
         </div>

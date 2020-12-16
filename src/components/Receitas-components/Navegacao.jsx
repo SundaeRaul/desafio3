@@ -11,6 +11,7 @@ import { VscAccount } from "react-icons/vsc";
 import { VscNote } from "react-icons/vsc";
 import { VscGear } from "react-icons/vsc";
 import { VscSignOut } from "react-icons/vsc";
+import { Link } from "react-router-dom";
 
 class Navegacao extends React.Component {
   showSettings(event) {
@@ -96,7 +97,7 @@ class Navegacao extends React.Component {
             </div>
           </div>
         </Menu>
-        <img className="logo" src={logo2} alt="Financ" />
+        <Link className="logo" to="/inicial"><img className="logo" src={logo2} alt="Financ" /></Link>        
       </div>
     );
   }

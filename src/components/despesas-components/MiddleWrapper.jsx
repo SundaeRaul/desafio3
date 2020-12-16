@@ -6,7 +6,7 @@ import Media from './Media';
 
 // import Grafico from '../../images/grafico-de-pizza.png';
 import Grafico from './Grafico';
-function MiddleWrapper() {
+function MiddleWrapper({despesas}) {
   return(
     <div id="middlewrapper">
         <div id="media">
@@ -14,7 +14,7 @@ function MiddleWrapper() {
             <Media />
         </div>
         <div id="chart-container">
-          <Grafico height="200" width="400"/>
+          <Grafico height="200" width="400" despesas={despesas}/>
           {/* <img src={Grafico}></img> */}
         </div>
     </div>

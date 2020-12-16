@@ -10,8 +10,9 @@
 }
 
 .upperPartTitle {
-    font-size: 60px;
+    font-size: 45px;
     color: #04660e;
+    margin-bottom: 20px;
 }
 
 .upperPartContent {
@@ -41,6 +42,10 @@
     justify-content: space-around;
     cursor: pointer;
     outline-style: none;
+}
+
+.upperbtn:hover {
+    background-color: #b3cfb5;
 }
 
 .upperPartBtn1 {

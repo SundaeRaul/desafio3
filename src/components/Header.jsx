@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from '../images/logo2.png';
-import Menu from './Menu';
+
 
 import './Header.css';
 
@@ -13,12 +13,13 @@ function Header(){
 
             <nav id="navbar">
                 <div className="logo-navbar">
+                        menuClassName={"menuReceitas"}
+                        itemListClassName={"menuReceitas-listaItem"}
                     <Link to="/" title="FinanC">
                         <img src={ Logo } alt="Logo FinanC"></img>
                     </Link>
                 </div>
                 
-                <Menu />
             </nav>
 
         </header>

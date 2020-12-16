@@ -10,14 +10,15 @@ function FormataDespesas({despesas}) {
   return(
     <>
       <table>
-        { Data.map(post => {
+        { despesas.map(post => {
             return(
               <>
                 <tr>
-                    <td className="descricao">{ post.descricao }</td>
-                    <td className="valor">{ parseFloat(post.preco).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</td>
+                    <td className="titulo">{ post.titulo }</td>
+                    <td className="valor">{ post.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</td>
                     <td className="categoria">{ post.categoria }</td>
                     <td className="data">{ post.data}</td>
+                    <td className="descricao">{ post.descricao }</td>
                 </tr>
               </>
             )

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './Politica.css';
 
 function Politica() { 
-    function avisoPolitica() {
+    function avisoPolitica(event) {
         alert('Estamos em fase de desenvolvimento de nossas políticas, que em breve estarão disponíveis. Obrigado pelo interesse!')
+        event.preventDefault()
     }
         return(
             <div className="rodape">

@@ -11,3 +11,14 @@ div#despesas{
     background: #f0f0f7;
     
 }
+
+#wrapper{
+    max-width: 1200px;
+    height: 100%;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.despesas{
+    background-color: red !important;
+}
