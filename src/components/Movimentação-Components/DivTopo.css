@@ -28,3 +28,8 @@
 .NovaMovPlus{
     align-self: center;
 }
+.TopoMov button:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
