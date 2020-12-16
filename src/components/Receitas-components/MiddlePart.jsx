@@ -10,7 +10,7 @@ class MiddlePart extends React.Component {
       <div className="middlePartWrapper">
         <div id="middlePartContent">
           <div className="middlePartLeft">
-            <span className="middlePartTitle"><strong>Média mensal</strong></span>
+            <span className="middlePartTitle"><strong>Total mensal de receitas</strong></span>
             <span className="middlePartValue"><strong><TotalMensal /></strong></span>
           </div>
           <div className="middlePartRight">
