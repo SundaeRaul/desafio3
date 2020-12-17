@@ -10,5 +10,13 @@ div#Login{
     overflow-x: hidden;
     background: #f0f0f7;
     display: flex;
+    flex-flow: column wrap;
     align-items: center;
+}
+
+.LogoLogin {
+    margin-top: 40px;
+    width:40%;
+    height: auto;
+    margin-left: 135px;
 }
