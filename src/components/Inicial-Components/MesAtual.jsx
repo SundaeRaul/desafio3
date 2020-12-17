@@ -1,10 +1,12 @@
 import React from 'react';
 import './MesAtual.css';
+import Graficomes from './graficomes'
+
 
 function MesAtual(){
     return(
-        <div>
-            
+        <div className="graficopos">
+            <Graficomes/>
         </div>
     );
 }

@@ -5,7 +5,8 @@ import Balanço from '../components/Inicial-Components/BalaçoGeral';
 import CadastroRapido from '../components/Inicial-Components/CadastroRapido';
 import ContasAPagar from '../components/Inicial-Components/Pagar';
 import ContasAReceber from '../components/Inicial-Components/Receber';
-import MesAtual from '../components/Inicial-Components/MesAtual';
+// import MesAtual from '../components/Inicial-Components/MesAtual';
+import Graficomes from '../components/Inicial-Components/graficomes';
 
 
 function Inicial(){
@@ -22,7 +23,8 @@ function Inicial(){
                     <ContasAReceber/>
                 </div>
                 <div className="containerBaixo">
-                    <MesAtual/>
+                    <Graficomes/>
+                    
                 </div>
             </div>
         </>
