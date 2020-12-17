@@ -5,7 +5,7 @@ import listDespesas from '../JSON/despesas.json';
 
 import '../styles/despesas.css';
 
-import Header from '../components/despesas-components/Header';
+import Header from '../components/Receitas-components/Navegacao';
 import Modal from '../components/despesas-components/Modal';
 import ButtonContainer from '../components/despesas-components/ButtonContainer';
 import MiddleWrapper from '../components/despesas-components/MiddleWrapper';

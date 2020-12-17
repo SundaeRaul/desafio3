@@ -17,6 +17,8 @@ div#despesas{
     height: 100%;
     margin: 20px auto;
     padding: 0 15px;
+    position: relative;
+    top: 60px;
 }
 
 .despesas{
