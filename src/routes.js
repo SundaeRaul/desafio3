@@ -6,8 +6,8 @@ import Despesas from './pages/despesas';
 import Receitas from './pages/Receitas';
 import Inicial from '../src/pages/Inicial';
 import Login from './pages/Login';
-import Cadastro from './pages/Cadastro';
-import Movimentacao from './pages/Movimentacao';
+// import Cadastro from './pages/Cadastro';
+// import Movimentacao from './pages/Movimentacao';
 import Page404 from './pages/Page404';
 import FormTeste from './pages/FormTeste';
 
@@ -24,8 +24,8 @@ function Routes(){
             <Route path="/Receitas" component={Receitas} />
             <Route path="/Inicial" component={Inicial}/>
             <Route path ="/Login" component={Login}/>
-            <Route path ="/Cadastro" component={Cadastro}/>
-            <Route path ="/Movimentacao" component={Movimentacao}/>
+            {/* <Route path ="/Cadastro" component={Cadastro}/> */}
+            {/* <Route path ="/Movimentacao" component={Movimentacao}/> */}
             <Route path ="/formteste" component={FormTeste}/>
             <Route component={Page404} />
 

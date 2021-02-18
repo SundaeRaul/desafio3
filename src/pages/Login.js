@@ -1,16 +1,16 @@
 import React from 'react';
+import Logo from '../images/logo2.png';
 import '../styles/Login.css';
-import BoxLogin from '../components/Login-Components/BoxLogin'
-import Logo from "../images/logo2.png"
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import DivBrancaLogin from '../components/Login-Components/DivBrancaLogin';
 
-function Login(){
+function Login (){
     return(
-        <div id="Login">
-            <Link to="/" title="FinanC" style={{textDecoration: 'none', color:'none'}}>
-                <img className="LogoLogin" src={Logo}/>
-            </Link>
-            <BoxLogin />
+        <div id="PaginaLogin">
+            <Link className="LinkLogo" to="/Home"><img className="LogoLC" src={Logo}/></Link>
+            <div className="BoxLogin">
+                <DivBrancaLogin />
+            </div>
         </div>
     );
 }
